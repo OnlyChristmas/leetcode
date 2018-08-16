@@ -34,10 +34,8 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 * [Design](https://github.com/OnlyChristmas/leetcode#design)
 
 ## Others
-* Database
-  - [SQL](https://github.com/OnlyChristmas/leetcode#sql)
-* Shell
-  - [Shell Script](https://github.com/OnlyChristmas/leetcode#shell-script)
+* [SQL](https://github.com/OnlyChristmas/leetcode#sql)
+* [Shell Script](https://github.com/OnlyChristmas/leetcode#shell-script)
 
 
 ---
