@@ -1,7 +1,8 @@
 # [leetcode](https://leetcode.com/problemset/algorithms/)
 
 The number of leetcode questions is increasing every week.
-I'll keep updating for full summary and better solutions. Stay tuned for updates.
+
+I will constantly seek and summarize better solutions to the problem and keep updating.
 
 
 ---
