@@ -68,6 +68,113 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | 762 | [Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) |  [Python](./Python/prime-number-of-set-bits-in-binary-representation.py) |      |       | Easy       |
 | 868 | [Binary Gap](https://leetcode.com/problems/binary-gap/)                                                                               |  [Python](./Python/binary-gap.py)                                                                               |      |       | Easy       |
 
+
+
+## Array
+| # | Title | Solution | Time | Space | Difficulty |
+|-----|-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|------|-------|------------|
+| 015 | [3 Sum](https://leetcode.com/problems/3sum/) | [Python](./Python/3sum.py) |  |  | Medium |
+| 016 | [3 Sum Closest](https://leetcode.com/problems/3sum-closest/) | [Python](./Python/3sum-closest.py) |  |  | Medium |
+| 018 | [4 Sum](https://leetcode.com/problems/4sum/) | [Python](./Python/4sum.py) |  |  | Medium |
+| 026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](./Python/remove-duplicates-from-sorted-array.py) |  |  | Easy |
+| 027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Python](./Python/remove-element.py) |  |  | Easy |
+| 031 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [Python](./Python/next-permutation.py) |  |  | Medium |
+| 041 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [Python](./Python/first-missing-positive.py) |  |  | Hard |
+| 048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Python](./Python/rotate-image.py) |  |  | Medium |
+| 054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./Python/spiral-matrix.py) |  |  | Medium |
+| 059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | [Python](./Python/spiral-matrix-ii.py) |  |  | Medium |
+| 066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Python](./Python/plus-one.py) |  |  | Easy |
+| 073 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Python](./Python/set-matrix-zeroes.py) |  |  | Medium |
+| 080 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [Python](./Python/remove-duplicates-from-sorted-array-ii.py) |  |  | Medium |
+| 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](./Python/pascals-triangle.py) |  |  | Easy |
+| 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [Python](./Python/pascals-triangle-ii.py) |  |  | Easy |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](./Python/best-time-to-buy-and-sell-stock.py) |  |  | Easy |
+| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [Python](./Python/longest-consecutive-sequence.py) |  |  | Hard |
+| 157 | [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/) | [Python](./Python/read-n-characters-given-read4.py) |  |  | Easy |
+| 158 | [Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/) | [Python](./Python/read-n-characters-given-read4-ii-call-multiple-times.py) |  |  | Hard |
+| 163 | [Missing Ranges](https://leetcode.com/problems/missing-ranges/) | [Python](./Python/missing-ranges.py) |  |  | Medium |
+| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [Python](./Python/majority-element.py) |  |  | Easy |
+| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [Python](./Python/rotate-array.py) |  |  | Easy |
+| 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Python](./Python/minimum-size-subarray-sum.py) |  |  | Medium |
+| 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Python](./Python/kth-largest-element-in-an-array.py) |  |  | Medium |
+| 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) | [Python](./Python/summary-ranges.py) |  |  | Medium |
+| 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Python](./Python/majority-element-ii.py) |  |  | Medium |
+| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Python](./Python/product-of-array-except-self.py) |  |  | Medium |
+| 240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Python](./Python/search-a-2d-matrix-ii.py) |  |  | Medium |
+| 243 | [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/) | [Python](./Python/shortest-word-distance.py) |  |  | Easy |
+| 245 | [Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/) | [Python](./Python/shortest-word-distance-iii.py) |  |  | Medium |
+| 251 | [Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/) | [Python](./Python/flatten-2d-vector.py) |  |  | Medium |
+| 277 | [Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/) | [Python](./Python/find-the-celebrity.py) |  |  | Medium |
+| 289 | [Game of Life](https://leetcode.com/problems/game-of-life/) | [Python](./Python/game-of-life.py) |  |  | Medium |
+| 293 | [Flip Game](https://leetcode.com/problems/flip-game/) | [Python](./Python/flip-game.py) |  |  | Easy |
+| 296 | [Best Meeting Point](https://leetcode.com/problems/best-meeting-point/) | [Python](./Python/best-meeting-point.py) |  |  | Hard |
+| 311 | [Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/) | [Python](./Python/sparse-matrix-multiplication.py) |  |  | Medium |
+| 334 | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | [Python](./Python/increasing-triplet-subsequence.py) |  |  | Medium |
+| 370 | [Range Addition](https://leetcode.com/problems/range-addition/) | [Python](./Python/range-addition.py) |  |  | Medium |
+| 384 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) | [Python](./Python/shuffle-an-array.py) |  |  | Medium |
+| 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | [Python](./Python/rotate-function.py) |  |  | Easy |
+| 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Python](./Python/fizz-buzz.py) |  |  | Easy |
+| 414 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | [Python](./Python/third-maximum-number.py) |  |  | Easy |
+| 419 | [Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/) | [Python](./Python/battleships-in-a-board.py) |  |  | Medium |
+| 422 | [Valid Word Square](https://leetcode.com/problems/valid-word-square/) | [Python](./Python/valid-word-square.py) |  |  | Easy |
+| 442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [Python](./Python/find-all-duplicates-in-an-array.py) |  |  | Medium |
+| 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Python](./Python/find-all-numbers-disappeared-in-an-array.py) |  |  | Easy |
+| 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/) | [Python](./Python/max-consecutive-ones.py) | _O(n)_ | _O(1)_ | Easy |
+| 531 | [Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/) | [Python](./Python/lonely-pixel-i.py) |  |  | Medium |
+| 533 | [Lonely Pixel II](https://leetcode.com/problems/lonely-pixel-ii/) | [Python](./Python/lonely-pixel-ii.py) |  |  | Medium |
+| 565 | [Array Nesting](https://leetcode.com/problems/array-nesting/) | [Python](./Python/array-nesting.py) |  |  | Medium |
+| 566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [Python](./Python/reshape-the-matrix.py) |  |  | Easy |
+| 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [Python](./Python/shortest-unsorted-continuous-subarray.py) |  |  | Easy |
+| 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | [Python](./Python/can-place-flowers.py) |  |  | Easy |
+| 624 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/) | [Python](./Python/maximum-distance-in-arrays.py) |  |  | Easy |
+| 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | [Python](./Python/maximum-average-subarray-i.py) |  |  | Easy |
+| 644 | [Maximum Average Subarray II](https://leetcode.com/problems/maximum-average-subarray-ii/) | [Python](./Python/maximum-average-subarray-ii.py) |  |  | Hard Math |
+| 661 | [Image Smoother](https://leetcode.com/problems/image-smoother/) | [Python](./Python/image-smoother.py) |  |  | Easy |
+| 665 | [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/) | [Python](./Python/non-decreasing-array.py) |  |  | Easy |
+| 6_O(1)_67 | [Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/) | [Python](./Python/beautiful-arrangement-ii.py) |  |  | Medium |
+| 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | [Python](./Python/maximum-swap.py) |  |  | Medium |
+| 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [Python](./Python/longest-continuous-increasing-subsequence.py) |  |  | Easy |
+| 683 | [K Empty Slots](https://leetcode.com/problems/k-empty-slots/) | [Python](./Python/k-empty-slots.py) |  |  | Hard |
+| 697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | [Python](./Python/degree-of-an-array.py) |  |  | Easy |
+| 713 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | [Python](./Python/subarray-product-less-than-k.py) |  |  | Medium |
+| 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | [Python](./Python/1-bit-and-2-bit-characters.py) |  |  | Easy |
+| 723 | [Candy Crush](https://leetcode.com/problems/candy-crush/) | [Python](./Python/candy-crush.py) |  |  | Medium |
+| 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [Python](./Python/find-pivot-index.py) |  |  | Easy |
+| 729 | [My Calendar I](https://leetcode.com/problems/my-calendar-i/) | [Python](./Python/my-calendar-i.py) |  |  | Medium |
+| 731 | [My Calendar II](https://leetcode.com/problems/my-calendar-ii/) | [Python](./Python/my-calendar-ii.py) |  |  | Medium |
+| 732 | [My Calendar III](https://leetcode.com/problems/my-calendar-iii/) | [Python](./Python/my-calendar-iii.py) |  |  | Hard |
+| 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | [Python](./Python/largest-number-at-least-twice-of-others.py) |  |  | Easy |
+| 755 | [Pour Water](https://leetcode.com/problems/pour-water/) | [Python](./Python/pour-water.py) |  |  | Medium |
+| 766 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | [Python](./Python/toeplitz-matrix.py) |  |  | Easy |
+| 768 | [Max Chunks To Make Sorted II](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/) | [Python](./Python/max-chunks-to-make-sorted-ii.py) |  |  | Hard |
+| 769 | [Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/) | [Python](./Python/max-chunks-to-make-sorted.py) |  |  | Medium |
+| 778 | [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | [Python](./Python/swim-in-rising-water.py) |  |  | Hard |
+| 792 | [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/) | [Python](./Python/number-of-matching-subsequences.py) |  |  | Medium |
+| 794 | [Valid Tic-Tac-Toe State](https://leetcode.com/problems/valid-tic-tac-toe-state/) | [Python](./Python/valid-tic-tac-toe-state.py) |  |  | Medium |
+| 795 | [Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/) | [Python](./Python/number-of-subarrays-with-bounded-maximum.py) |  |  | Medium |
+| 803 | [Bricks Falling When Hit](https://leetcode.com/problems/bricks-falling-when-hit/) | [Python](./Python/bricks-falling-when-hit.py) |  |  | Hard |
+| 807 | [Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/) | [Python](./Python/max-increase-to-keep-city-skyline.py) |  |  | Medium |
+| 821 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | [Python](./Python/shortest-distance-to-a-character.py) |  |  | Easy |
+| 830 | [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | [Python](./Python/positions-of-large-groups.py) |  |  | Easy |
+| 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | [Python](./Python/flipping-an-image.py) |  |  | Easy |
+| 835 | [Image Overlap](https://leetcode.com/problems/image-overlap/) | [Python](./Python/image-overlap.py) |  |  | Medium |
+| 840 | [Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/) | [Python](./Python/magic-squares-in-grid.py) |  |  | Easy |
+| 842 | [Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/) | [Python](./Python/split-array-into-fibonacci-sequence.py) |  |  | Medium |
+| 845 | [Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/) | [Python](./Python/longest-mountain-in-array.py) |  |  | Medium |
+| 849 | [Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) | [Python](./Python/maximize-distance-to-closest-person.py) |  |  | Easy |
+| 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) | [Python](./Python/lemonade-change.py) |  |  | Easy |
+| 868 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | [Python](./Python/transpose-matrix.py) |  |  | Easy |
+| 889 | [Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/) | [Python](./Python/spiral-matrix-iii.py) |  |  | Medium |
+
+
+
+
+
+
+
+
+
+
 ## String
 | #   | Title                                                                                                                     | Solution                                                                                                                        | Time | Space | Difficulty |
 |-----|---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|------|-------|------------|
@@ -139,6 +246,10 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | 839 | [Similar String Groups](https://leetcode.com/problems/similar-string-groups/)                                             |  [Python](./Python/similar-string-groups.py)                                              |      |       | Hard       |
 | 848 | [Shifting Letters](https://leetcode.com/problems/shifting-letters/)                                                       |  [Python](./Python/shifting-letters.py)                                                        |      |       | Medium     |
 | 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/)                                                             |  [Python](./Python/buddy-strings.py)                                                              |      |       | Easy       |
+
+
+
+
 
 ## Linked List
 | #   | Title                                                                                                         | Solution                                                                                                           | Time | Space | Difficulty |
