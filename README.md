@@ -76,18 +76,19 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | 015 | [3 Sum](https://leetcode.com/problems/3sum/) | [Python](./Python/3sum.py) |  |  | Medium |
 | 016 | [3 Sum Closest](https://leetcode.com/problems/3sum-closest/) | [Python](./Python/3sum-closest.py) |  |  | Medium |
 | 018 | [4 Sum](https://leetcode.com/problems/4sum/) | [Python](./Python/4sum.py) |  |  | Medium |
-| 026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](./Python/remove-duplicates-from-sorted-array.py) |  |  | Easy |
+| 026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](./Python/remove-duplicates-from-sorted-array.py) | _O(n^2)_ | _O(1)_ | Easy |
 | 027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Python](./Python/remove-element.py) |  |  | Easy |
 | 031 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [Python](./Python/next-permutation.py) |  |  | Medium |
+| 035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](./Python/search-insert-position.py) | _O(log_2(n))_ | _O(1)_ | Easy |
 | 041 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [Python](./Python/first-missing-positive.py) |  |  | Hard |
 | 048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Python](./Python/rotate-image.py) |  |  | Medium |
 | 054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./Python/spiral-matrix.py) |  |  | Medium |
 | 059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | [Python](./Python/spiral-matrix-ii.py) |  |  | Medium |
-| 066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Python](./Python/plus-one.py) |  |  | Easy |
+| 066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Python](./Python/plus-one.py) | _O(n)_ | _O(n)_ | Easy |
 | 073 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Python](./Python/set-matrix-zeroes.py) |  |  | Medium |
 | 080 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [Python](./Python/remove-duplicates-from-sorted-array-ii.py) |  |  | Medium |
-| 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](./Python/pascals-triangle.py) |  |  | Easy |
-| 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [Python](./Python/pascals-triangle-ii.py) |  |  | Easy |
+| 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](./Python/pascals-triangle.py) | _O(n)_ | _O(n)_ | Easy |
+| 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [Python](./Python/pascals-triangle-ii.py) |  | _O(1)_ | Easy |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](./Python/best-time-to-buy-and-sell-stock.py) |  |  | Easy |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [Python](./Python/longest-consecutive-sequence.py) |  |  | Hard |
 | 157 | [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/) | [Python](./Python/read-n-characters-given-read4.py) |  |  | Easy |
@@ -181,7 +182,7 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | 005 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](./Python/longest-palindromic-substring.py) |  |  | Medium |
 | 006 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Python](./Python/zigzag-conversion.py) |  |  | Easy |
 | 008 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Python](./Python/string-to-integer-atoi.py) |  |  | Easy |
-| 014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Python](./Python/longest-common-prefix.py) |  |  | Easy |
+| 014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Python](./Python/longest-common-prefix.py) | _O(n^2)_ | _O(1)_ | Easy |
 | 028 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Python](./Python/implement-strstr.py) | _O(n)_ | _O(1)_ | Easy |
 | 038 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [Python](./Python/count-and-say.py) |  |  | Easy |
 | 043 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [Python](./Python/multiply-strings.py) |  |  | Medium |
@@ -381,10 +382,10 @@ I will constantly seek and summarize better solutions to the problem and keep up
 ## Hash Table
 | # | Title | Solution | Time | Space | Difficulty |
 | --- | --- | --- | --- | --- | --- |
-| 001 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./Python/two-sum.py) |  |  | Easy |
+| 001 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./Python/two-sum.py) | _O(n)_ | _O(n)_ | Easy |
 | 003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](./Python/longest-substring-without-repeating-characters.py) |  |  | Medium |
 | 030 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | [Python](./Python/substring-with-concatenation-of-all-words.py) |  |  | Hard |
-| 036 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](./Python/valid-sudoku.py) |  |  | Easy |
+| 036 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](./Python/valid-sudoku.py) | _O(n^2)_ | _O(n)_ | Easy |
 | 049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Python](./Python/group-anagrams.py) |  |  | Medium |
 | 076 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Python](./Python/minimum-window-substring.py) |  |  | Hard |
 | 149 | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | [Python](./Python/max-points-on-a-line.py) |  |  | Hard |
@@ -445,8 +446,8 @@ I will constantly seek and summarize better solutions to the problem and keep up
 ## Math
 | # | Title | Solution | Time | Space | Difficulty |
 | --- | --- | --- | --- | --- | --- |
-| 007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Python](./Python/reverse-integer.py) |  |  | Easy |
-| 009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Python](./Python/palindrome-number.py) |  |  | Easy |
+| 007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Python](./Python/reverse-integer.py) | _O(n)_ | _O(1)_ | Easy |
+| 009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Python](./Python/palindrome-number.py) | _O(1)_ | _O(1)_ | Easy |
 | 012 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [Python](./Python/integer-to-roman.py) |  |  | Medium |
 | 013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](./Python/roman-to-integer.py) |  |  | Easy |
 | 029 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | [Python](./Python/divide-two-integers.py) |  |  | Medium |
@@ -549,6 +550,7 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | --- | --- | --- | --- | --- | --- |
 | 019 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Python](./Python/remove-nth-node-from-end-of-list.py) |  |  | Easy |
 | 028 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Python](./Python/implement-strstr.py) | _O(n)_ | _O(1)_ | Easy |
+| 035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](./Python/search-insert-position.py) | _O(log_2(n))_ | _O(1)_ | Easy |
 | 086 | [Partition List](https://leetcode.com/problems/partition-list/) | [Python](./Python/partition-list.py) |  |  | Medium |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](./Python/linked-list-cycle.py) |  |  | Easy |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [Python](./Python/linked-list-cycle-ii.py) |  |  | Medium |
@@ -578,7 +580,7 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | 095 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [Python](./Python/unique-binary-search-trees-ii.py) |  |  | Medium |
 | 098 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Python](./Python/validate-binary-search-tree.py) |  |  | Medium |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | [C+](./C++/same-tree.cpp) [Python](./Python/same-tree.py) |  |  | Easy |
-| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Python](./Python/maximum-depth-of-binary-tree.py) |  |  | Easy |
+| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Python](./Python/maximum-depth-of-binary-tree.py) | _O(n)_ | _O(1)_ | Easy |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Python](./Python/construct-binary-tree-from-preorder-and-inorder-traversal.py) |  |  | Medium |
 | 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [Python](./Python/construct-binary-tree-from-inorder-and-postorder-traversal.py) |  |  | Medium |
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Python](./Python/convert-sorted-array-to-binary-search-tree.py) |  |  | Medium |
@@ -780,7 +782,7 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | 062 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Python](./Python/unique-paths.py) |  |  | Medium |
 | 063 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [Python](./Python/unique-paths-ii.py) |  |  | Medium |
 | 064 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Python](./Python/minimum-path-sum.py) |  |  | Medium |
-| 070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Python](./Python/climbing-stairs.py) |  |  | Easy |
+| 070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Python](./Python/climbing-stairs.py) | _O(n)_ | _O(1)_ | Easy |
 | 072 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | [Python](./Python/edit-distance.py) |  |  | Hard |
 | 087 | [Scramble String](https://leetcode.com/problems/scramble-string/) | [Python](./Python/scramble-string.py) |  |  | Hard |
 | 091 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | [Python](./Python/decode-ways.py) |  |  | Medium |
