@@ -64,8 +64,6 @@ class Solution:
         #             if nums2[index] < nums2[j]:
         #                 dic[ nums2[index]] = nums2[j]
         #                 break
-        #             elif j == len(nums2)-1:
-        #                 dic[nums2[index]] = -1
         #     return [dic.get(i,-1) for i in nums1]
         # return []
 
@@ -81,7 +79,3 @@ class Solution:
                 dic[stack.pop()] = number
             stack.append(number)
         return [dic.get(i , -1) for i in nums1]
-
-
-
-
