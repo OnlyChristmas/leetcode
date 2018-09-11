@@ -85,7 +85,7 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | 031 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [Python](./Python/next-permutation.py) |  |  | Medium |
 | 035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](./Python/search-insert-position.py) | $O(log_2n)$ | O(1) | Easy |
 | 041 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [Python](./Python/first-missing-positive.py) |  |  | Hard |
-| 048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Python](./Python/rotate-image.py) |  |  | Medium |
+| 048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Python](./Python/rotate-image.py) | O(n$log_2(n)$) | O(1) | Medium |
 | 054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./Python/spiral-matrix.py) |  |  | Medium |
 | 059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | [Python](./Python/spiral-matrix-ii.py) |  |  | Medium |
 | 066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Python](./Python/plus-one.py) | O(n) | O(n) | Easy |
