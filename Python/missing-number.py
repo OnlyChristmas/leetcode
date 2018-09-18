@@ -24,15 +24,16 @@ class Solution:
         :rtype: int
         """
 
-        # method two   遍历速度太慢
+        # Approach #1   遍历速度太慢
         # return  [i for i in range(len(nums)+1) if i not in nums][0]
 
-        # method three   集合操作
+        # Approach #2   集合操作
         # return  list(set(list(range(len(nums)+1))) - set(nums))[0]
 
 
-        # method one 从数学角度考虑
-        return int(len(nums)*(len(nums)+1)/2 - sum(nums))
+        # Approach #3 从数学角度考虑
+        # return int(len(nums)*(len(nums)+1)/2 - sum(nums))
 
 
-        
+        # Approach #4 从数学角度考虑
+        return sum(range(len(nums)+1)) - sum(nums)

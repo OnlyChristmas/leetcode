@@ -30,7 +30,7 @@ class Solution:
         :type n: int
         :rtype: bool
         """
-        # twice method 循环
+        # Approach #1 低效的循环
         # if n :
         #     while n % 3 == 0:
         #         n /= 3
@@ -38,5 +38,5 @@ class Solution:
         # return False
 
 
-        # third method  一个笨方法
+        # Approach #2     3 ** 19 == 1162261467
         return n > 0 and 1162261467 % n == 0

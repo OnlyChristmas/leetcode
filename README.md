@@ -125,7 +125,7 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | 370 | [Range Addition](https://leetcode.com/problems/range-addition/) | [Python](./Python/range-addition.py) |  |  | Medium |
 | 384 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) | [Python](./Python/shuffle-an-array.py) |  |  | Medium |
 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | [Python](./Python/rotate-function.py) |  |  | Easy |
-| 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Python](./Python/fizz-buzz.py) |  |  | Easy |
+| 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Python](./Python/fizz-buzz.py) | O(n) | O(n) | Easy |
 | 414 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | [Python](./Python/third-maximum-number.py) |  |  | Easy |
 | 419 | [Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/) | [Python](./Python/battleships-in-a-board.py) |  |  | Medium |
 | 422 | [Valid Word Square](https://leetcode.com/problems/valid-word-square/) | [Python](./Python/valid-word-square.py) |  |  | Easy |
@@ -192,10 +192,10 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | --- | --- | --- | --- | --- | --- |
 | 005 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](./Python/longest-palindromic-substring.py) |  |  | Medium |
 | 006 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Python](./Python/zigzag-conversion.py) |  |  | Easy |
-| 008 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Python](./Python/string-to-integer-atoi.py) |  |  | Easy |
+| 008 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Python](./Python/string-to-integer-atoi.py) | O(n) | O(1) | Easy |
 | 014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Python](./Python/longest-common-prefix.py) | $O(n^2)$ | O(1) | Easy |
 | 028 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Python](./Python/implement-strstr.py) | O(n) | O(1) | Easy |
-| 038 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [Python](./Python/count-and-say.py) |  |  | Easy |
+| 038 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [Python](./Python/count-and-say.py) | O($n*2^n$) | O($2^n$) | Easy |
 | 043 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [Python](./Python/multiply-strings.py) |  |  | Medium |
 | 058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Python](./Python/length-of-last-word.py) |  |  | Easy |
 | 067 | [Add Binary](https://leetcode.com/problems/add-binary/) | [Python](./Python/add-binary.py) |  |  | Easy |
@@ -466,7 +466,7 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | 007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Python](./Python/reverse-integer.py) | O(n) | O(1) | Easy |
 | 009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Python](./Python/palindrome-number.py) | O(1) | O(1) | Easy |
 | 012 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [Python](./Python/integer-to-roman.py) |  |  | Medium |
-| 013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](./Python/roman-to-integer.py) |  |  | Easy |
+| 013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](./Python/roman-to-integer.py) | O(n) | O(1) | Easy |
 | 026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](./Python/remove-duplicates-from-sorted-array.py) | $O(n^2)$ | O(1) | Easy |
 | 029 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | [Python](./Python/divide-two-integers.py) |  |  | Medium |
 | 050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Python](./Python/powx-n.py) |  |  | Medium |
@@ -490,7 +490,7 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | [Python](./Python/missing-number.py) | O(n) | O(1) | Medium |
 | 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | [Python](./Python/nim-game.py) | O(1) | O(1) | Easy |
 | 319 | [Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) | [Python](./Python/bulb-switcher.py) |  |  | Medium |
-| 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | [Python](./Python/power-of-three.py) |  |  | Easy |
+| 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | [Python](./Python/power-of-three.py) | O(1) | O(1) | Easy |
 | 335 | [Self Crossing](https://leetcode.com/problems/self-crossing/) | [Python](./Python/self-crossing.py) |  |  | Hard |
 | 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | [Python](./Python/integer-break.py) |  |  | Medium |
 | 365 | [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | [Python](./Python/water-and-jug-problem.py) |  |  | Medium |
