@@ -30,7 +30,7 @@ class Solution:
         :rtype: str
         """
 
-        # 思路一： 一个笨方法
+        # Approach One： 一个笨方法
 #         length = 0
 #         leng = 10000
 #         for s in strs :
@@ -51,7 +51,7 @@ class Solution:
 #                     return mins[:length]
 
 
-        # 思路二： 排序法，代价不低：
+        # Approach Two： 排序法，代价不低：
         # if strs == []:
         #     return ''
         # lista = sorted(strs,key=len)  # 可以应用在所有可迭代对象的高阶函数sorted()简化思路一
@@ -66,24 +66,25 @@ class Solution:
 
 
 
-        # 排序法更精简的写法,只需要比较第一个和最后一个的公共前缀：
-
-        if not strs:
-            return ''
-        strs.sort()                        # sort()函数只用于列表的排序，字符串默认升序
-        print(strs)
-        res = ''
-        for i in range(len(strs[0])):
-            if strs[-1][i] != strs[0][i]:   # 省略中间的比较，提高效率
-                return res
-            res += strs[0][i]
-        return res
-
+        # Approach three 排序法更精简的写法,只需要比较第一个和最后一个的公共前缀：
+        # if not strs:
+        #     return ''
+        # strs.sort()                        # sort()函数只用于列表的排序，字符串默认升序
+        # print(strs)
+        # res = ''
+        # for i in range(len(strs[0])):
+        #     if strs[-1][i] != strs[0][i]:   # 省略中间的比较，提高效率
+        #         return res
+        #     res += strs[0][i]
+        # return res
 
 
-
-
-
-
-
-
+        # Approach four
+        if strs == []: return ''
+        ans = ''
+        for i, n in enumerate(strs[0]):
+            for j in strs[1:]:
+                if i >= len(j) or j[i] != n :
+                    return ans
+            ans += n
+        return strs[0]

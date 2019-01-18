@@ -32,15 +32,43 @@ class Solution:
         :type nums: List[int]
         :rtype: int
         """
-        # Approach #1
+        # Approach one   重复遍历,效率偏低
+        # max_num = max_id = 0
+        # for i,num in enumerate(nums):
+        #     if num > max_num:
+        #         max_num = num
+        #         max_id = i
+        # nums.remove(max_num)
+        # if nums != [] and max_num < max(nums)*2: return -1    # 防止列表只有一个元素
+        # return max_id
+
+
+        # Approach two  简化代码，但仍重复遍历
+        # if len(nums) == 1 : return 0
+        # max_num = max(nums)
+        # max_id = nums.index(max_num)
+        # nums.remove(max_num)
+        # if max_num >= max(nums) * 2: return max_id
+        # return -1
+
+
+        # Approach three
         # max_num = max(nums)
         # for num in nums:
         #     if 2*num > max_num and num != max_num:
         #         return -1
         # return nums.index(max_num)
 
-        # Approach #2
-        max_num = max(nums)
-        max_loc = nums.index(max_num)
-        nums[max_loc] = 0
-        return max_loc if max_num >= max(nums) *2 else -1 
+        # Approach four
+        # max_num = max(nums)
+        # max_loc = nums.index(max_num)
+        # nums[max_loc] = 0               # 通过置零，而不是删除，解决只有一个元素的情况。
+        # return max_loc if max_num >= max(nums) *2 else -1
+
+        # Approach five  只需一次排序，效率最高
+        if len(nums) > 1:
+            max_nums = sorted(nums)
+            if max_nums[-1] >= max_nums[-2] * 2:
+                return nums.index(max_nums[-1])
+            return -1
+        return 0    # 只有一个元素时需要特殊处理

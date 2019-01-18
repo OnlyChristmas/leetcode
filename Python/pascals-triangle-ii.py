@@ -24,15 +24,23 @@ class Solution:
         :type rowIndex: int
         :rtype: List[int]
         """
-        # method one
+        # Approach one
+        # ans, k = [1], 0
+        # while k != rowIndex:
+        #     if k == 0:
+        #         ans = [1,1]
+        #     else:
+        #         ans = [1] + [i+j for i,j in zip(ans[1:],ans[:-1])] + [1]
+        #     k += 1
+        # return ans
+
+        # Approach two
         # row = [1]
         # for i in range(1,rowIndex+1):
         #     row = list(map( lambda x,y : x+y , row + [0] , [0] + row ))
         # return row
 
-
-
-        # method two    老土的方法，但有效，不用借助高等函数map()
+        # Approach three
         res = [1]
         for i in range(1, rowIndex+1):
             res = [1] + [res[i] + res[i + 1] for i in range(len(res) - 1)] + [1]

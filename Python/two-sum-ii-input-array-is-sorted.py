@@ -55,12 +55,18 @@ class Solution:
 
 
         # fourth method  利用字典，巧妙地去掉了重复元素，并且不用特殊处理两个因子相等的情况。
-        check={}
-        for i in range(len(numbers)):
-            if numbers[i] in check:
-                return [check.get(numbers[i])+1,i+1]
+        # check={}
+        # for i in range(len(numbers)):
+        #     if numbers[i] in check:
+        #         return [check.get(numbers[i])+1,i+1]
+        #     else:
+        #         check[target-numbers[i]]=i
+
+        # fifth method
+        dic = {}
+        for i,n in enumerate(numbers):
+            s = target - n
+            if s not in dic:    # 巧妙避免两个相同元素的情况
+                dic[n] = i
             else:
-                check[target-numbers[i]]=i
-
-
-        
+                return [dic[s] +1 , i+1]

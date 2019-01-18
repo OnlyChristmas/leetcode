@@ -33,7 +33,7 @@ class Solution:
         :type k: int
         :rtype: void Do not return anything, modify nums in-place instead.
         """
-        # 最简单的思路，在数组后面先补出来k个数字，然后数组向后移动，再把后面的数字搬到前面，最后去掉后面多余的数字。效率低下的算法
+        # Approach one 最简单的思路，在数组后面先补出来k个数字，然后数组向后移动，再把后面的数字搬到前面，最后去掉后面多余的数字。效率低下的算法
 #         length = len(nums)
 #         for i in range(k):
 #             nums.append(0)
@@ -48,7 +48,11 @@ class Solution:
 #         for j in range(len(nums)-length):
 #             del nums[-1]
 
+    # Approach Two
+        # while k:
+        #     k -= 1
+        #     nums.insert(0, nums.pop(-1))
 
-    # 思路二：运用数组的切片操作，简洁。并且是一个原地算法。
+    # Approach Three：运用数组的切片操作，简洁。并且是一个原地算法。
         i = k % len(nums)
         nums[:] = nums[-i:]+nums[:-i]

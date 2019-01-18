@@ -8,8 +8,9 @@ I will constantly seek and summarize better solutions to the problem and keep up
 
 ## Algorithms
 
-* [Bit Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipulation)
+
 * [Array](https://github.com/OnlyChristmas/leetcode#array)
+* [Bit Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipulation)
 * [String](https://github.com/OnlyChristmas/leetcode#string)
 * [Linked List](https://github.com/OnlyChristmas/leetcode#linked-list)
 * [Stack](https://github.com/OnlyChristmas/leetcode#stack)
@@ -40,36 +41,6 @@ I will constantly seek and summarize better solutions to the problem and keep up
 
 ---
 
-## Bit Manipulation
-| # | Title | Solution | Time | Space | Difficulty |
-| --- | --- | --- | --- | --- | --- |
-| 136 | [Single Number](https://leetcode.com/problems/single-number/) | [Python](./Python/single-number.py) | O(n) | O(1) | Easy |
-| 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | [Python](./Python/single-number-ii.py) |  |  | Medium |
-| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [Python](./Python/majority-element.py) | $O(nlog_2(n))$ | O(1) | Easy |
-| 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [Python](./Python/reverse-bits.py) |  |  | Easy |
-| 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Python](./Python/number-of-1-bits.py) | O(log_2(n)) | O(1) | Easy |
-| 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [Python](./Python/bitwise-and-of-numbers-range.py) |  |  | Medium |
-| 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | [Python](./Python/power-of-two.py) | O(1) | O(1) | Easy |
-| 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | [Python](./Python/add-digits.py) | O(n) | O(1) | Easy |
-| 260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) | [Python](./Python/single-number-iii.py) |  |  | Medium |
-| 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | [Python](./Python/missing-number.py) | O(n) | O(1) | Medium |
-| 318 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | [Python](./Python/maximum-product-of-word-lengths.py) |  |  | Medium |
-| 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [Python](./Python/counting-bits.py) | O(n) | O(n) | Medium |
-| 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | [Python](./Python/power-of-four.py) |  |  | Easy |
-| 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | [Python](./Python/sum-of-two-integers.py) |  |  | Easy |
-| 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | [Python](./Python/find-the-difference.py) | O(n) | O(1) | Easy |
-| 393 | [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/) | [Python](./Python/utf-8-validation.py) |  |  | Medium |
-| 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | [Python](./Python/binary-watch.py) |  |  | Easy |
-| 411 | [Minimum Unique Word Abbreviation](https://leetcode.com/problems/minimum-unique-word-abbreviation/) | [Python](./Python/minimum-unique-word-abbreviation.py) |  |  | Hard |
-| 421 | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | [Python](./Python/maximum-xor-of-two-numbers-in-an-array.py) |  |  | Medium |
-| 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [Python](./Python/hamming-distance.py) | O(1) | O(1) | Easy |
-| 462 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) | [Python](./Python/minimum-moves-to-equal-array-elements-ii.py) |  |  | Medium |
-| 476 | [Number Complement](https://leetcode.com/problems/number-complement/description/) | [Python](./Python/number-complement.py) | O(1) | O(1) | Easy |
-| 477 | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | [Python](./Python/total-hamming-distance.py) |  |  | Medium |
-| 645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/) | [Python](./Python/set-mismatch.py) |  |  | Easy |
-| 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | [Python](./Python/binary-number-with-alternating-bits.py) | O(1) | O(1) | Easy |
-| 762 | [Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | [Python](./Python/prime-number-of-set-bits-in-binary-representation.py) |  |  | Easy |
-| 868 | [Binary Gap](https://leetcode.com/problems/binary-gap/) | [Python](./Python/binary-gap.py) |  |  | Easy |
 
 
 
@@ -81,18 +52,18 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | 016 | [3 Sum Closest](https://leetcode.com/problems/3sum-closest/) | [Python](./Python/3sum-closest.py) |  |  | Medium |
 | 018 | [4 Sum](https://leetcode.com/problems/4sum/) | [Python](./Python/4sum.py) |  |  | Medium |
 | 026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](./Python/remove-duplicates-from-sorted-array.py) | $O(n^2)$ | O(1) | Easy |
-| 027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Python](./Python/remove-element.py) |  |  | Easy |
+| 027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Python](./Python/remove-element.py) | O(n) | O(1) | Easy |
 | 031 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [Python](./Python/next-permutation.py) |  |  | Medium |
 | 035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](./Python/search-insert-position.py) | $O(log_2n)$ | O(1) | Easy |
 | 041 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [Python](./Python/first-missing-positive.py) |  |  | Hard |
 | 048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Python](./Python/rotate-image.py) | O(n$log_2(n)$) | O(1) | Medium |
-| 054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./Python/spiral-matrix.py) |  |  | Medium |
+| 054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./Python/spiral-matrix.py) | O(n) | O(n) | Medium |
 | 059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | [Python](./Python/spiral-matrix-ii.py) |  |  | Medium |
 | 066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Python](./Python/plus-one.py) | O(n) | O(n) | Easy |
 | 073 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Python](./Python/set-matrix-zeroes.py) |  |  | Medium |
 | 080 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [Python](./Python/remove-duplicates-from-sorted-array-ii.py) |  |  | Medium |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](./Python/pascals-triangle.py) | O(n) | O(n) | Easy |
-| 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [Python](./Python/pascals-triangle-ii.py) | O(n) | O(1) | Easy |
+| 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [Python](./Python/pascals-triangle-ii.py) | O(n) | O(k) | Easy |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](./Python/best-time-to-buy-and-sell-stock.py) | O(n) | O(1) | Easy |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [Python](./Python/longest-consecutive-sequence.py) |  |  | Hard |
 | 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Python](./Python/find-minimum-in-rotated-sorted-array.py) | $O(log_2(n))$ | O(1) | Medium |
@@ -123,7 +94,6 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | 311 | [Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/) | [Python](./Python/sparse-matrix-multiplication.py) |  |  | Medium |
 | 334 | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | [Python](./Python/increasing-triplet-subsequence.py) |  |  | Medium |
 | 370 | [Range Addition](https://leetcode.com/problems/range-addition/) | [Python](./Python/range-addition.py) |  |  | Medium |
-| 384 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) | [Python](./Python/shuffle-an-array.py) |  |  | Medium |
 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | [Python](./Python/rotate-function.py) |  |  | Easy |
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Python](./Python/fizz-buzz.py) | O(n) | O(n) | Easy |
 | 414 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | [Python](./Python/third-maximum-number.py) |  |  | Easy |
@@ -132,6 +102,7 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | 442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [Python](./Python/find-all-duplicates-in-an-array.py) |  |  | Medium |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Python](./Python/find-all-numbers-disappeared-in-an-array.py) | O(n) | O(1) | Easy |
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/) | [Python](./Python/max-consecutive-ones.py) | O(n) | O(1) | Easy |
+| 498 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/description/) | [Python](./Python/diagonal-traverse.py) | O(n) | O(n) | Medium |
 | 531 | [Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/) | [Python](./Python/lonely-pixel-i.py) |  |  | Medium |
 | 533 | [Lonely Pixel II](https://leetcode.com/problems/lonely-pixel-ii/) | [Python](./Python/lonely-pixel-ii.py) |  |  | Medium |
 | 565 | [Array Nesting](https://leetcode.com/problems/array-nesting/) | [Python](./Python/array-nesting.py) |  |  | Medium |
@@ -151,11 +122,11 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | 713 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | [Python](./Python/subarray-product-less-than-k.py) |  |  | Medium |
 | 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | [Python](./Python/1-bit-and-2-bit-characters.py) |  |  | Easy |
 | 723 | [Candy Crush](https://leetcode.com/problems/candy-crush/) | [Python](./Python/candy-crush.py) |  |  | Medium |
-| 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [Python](./Python/find-pivot-index.py) |  |  | Easy |
+| 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [Python](./Python/find-pivot-index.py) | O(n) | O(1) | Easy |
 | 729 | [My Calendar I](https://leetcode.com/problems/my-calendar-i/) | [Python](./Python/my-calendar-i.py) |  |  | Medium |
 | 731 | [My Calendar II](https://leetcode.com/problems/my-calendar-ii/) | [Python](./Python/my-calendar-ii.py) |  |  | Medium |
 | 732 | [My Calendar III](https://leetcode.com/problems/my-calendar-iii/) | [Python](./Python/my-calendar-iii.py) |  |  | Hard |
-| 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | [Python](./Python/largest-number-at-least-twice-of-others.py) | O(1) | O(1) | Easy |
+| 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | [Python](./Python/largest-number-at-least-twice-of-others.py) | O(n) | O(1) | Easy |
 | 755 | [Pour Water](https://leetcode.com/problems/pour-water/) | [Python](./Python/pour-water.py) |  |  | Medium |
 | 766 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | [Python](./Python/toeplitz-matrix.py) |  |  | Easy |
 | 768 | [Max Chunks To Make Sorted II](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/) | [Python](./Python/max-chunks-to-make-sorted-ii.py) |  |  | Hard |
@@ -180,7 +151,36 @@ I will constantly seek and summarize better solutions to the problem and keep up
 
 
 
-
+## Bit Manipulation
+| # | Title | Solution | Time | Space | Difficulty |
+| --- | --- | --- | --- | --- | --- |
+| 136 | [Single Number](https://leetcode.com/problems/single-number/) | [Python](./Python/single-number.py) | O(n) | O(1) | Easy |
+| 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | [Python](./Python/single-number-ii.py) |  |  | Medium |
+| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [Python](./Python/majority-element.py) | $O(nlog_2(n))$ | O(1) | Easy |
+| 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [Python](./Python/reverse-bits.py) | O(n) | O(1) | Easy |
+| 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Python](./Python/number-of-1-bits.py) | O(log_2(n)) | O(1) | Easy |
+| 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [Python](./Python/bitwise-and-of-numbers-range.py) |  |  | Medium |
+| 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | [Python](./Python/power-of-two.py) | O(1) | O(1) | Easy |
+| 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | [Python](./Python/add-digits.py) | O(n) | O(1) | Easy |
+| 260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) | [Python](./Python/single-number-iii.py) |  |  | Medium |
+| 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | [Python](./Python/missing-number.py) | O(n) | O(1) | Medium |
+| 318 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | [Python](./Python/maximum-product-of-word-lengths.py) |  |  | Medium |
+| 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [Python](./Python/counting-bits.py) | O(n) | O(n) | Medium |
+| 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | [Python](./Python/power-of-four.py) |  |  | Easy |
+| 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | [Python](./Python/sum-of-two-integers.py) |  |  | Easy |
+| 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | [Python](./Python/find-the-difference.py) | O(n) | O(1) | Easy |
+| 393 | [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/) | [Python](./Python/utf-8-validation.py) |  |  | Medium |
+| 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | [Python](./Python/binary-watch.py) |  |  | Easy |
+| 411 | [Minimum Unique Word Abbreviation](https://leetcode.com/problems/minimum-unique-word-abbreviation/) | [Python](./Python/minimum-unique-word-abbreviation.py) |  |  | Hard |
+| 421 | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | [Python](./Python/maximum-xor-of-two-numbers-in-an-array.py) |  |  | Medium |
+| 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [Python](./Python/hamming-distance.py) | O(1) | O(1) | Easy |
+| 462 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) | [Python](./Python/minimum-moves-to-equal-array-elements-ii.py) |  |  | Medium |
+| 476 | [Number Complement](https://leetcode.com/problems/number-complement/description/) | [Python](./Python/number-complement.py) | O(1) | O(1) | Easy |
+| 477 | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | [Python](./Python/total-hamming-distance.py) |  |  | Medium |
+| 645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/) | [Python](./Python/set-mismatch.py) |  |  | Easy |
+| 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | [Python](./Python/binary-number-with-alternating-bits.py) | O(1) | O(1) | Easy |
+| 762 | [Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | [Python](./Python/prime-number-of-set-bits-in-binary-representation.py) |  |  | Easy |
+| 868 | [Binary Gap](https://leetcode.com/problems/binary-gap/) | [Python](./Python/binary-gap.py) |  |  | Easy |
 
 
 
@@ -198,10 +198,10 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | 038 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [Python](./Python/count-and-say.py) | O($n*2^n$) | O($2^n$) | Easy |
 | 043 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [Python](./Python/multiply-strings.py) |  |  | Medium |
 | 058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Python](./Python/length-of-last-word.py) |  |  | Easy |
-| 067 | [Add Binary](https://leetcode.com/problems/add-binary/) | [Python](./Python/add-binary.py) |  |  | Easy |
+| 067 | [Add Binary](https://leetcode.com/problems/add-binary/) | [Python](./Python/add-binary.py) | O(n) | O(1) | Easy |
 | 068 | [Text Justification](https://leetcode.com/problems/text-justification/) | [Python](./Python/text-justification.py) |  |  | Hard |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Python](./Python/valid-palindrome.py) | O(n) | O(1) | Easy |
-| 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [Python](./Python/reverse-words-in-a-string.py) |  |  | Medium |
+| 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [Python](./Python/reverse-words-in-a-string.py) | O(n) | O(1) | Medium |
 | 161 | [One Edit Distance](https://leetcode.com/problems/one-edit-distance/) | [Python](./Python/one-edit-distance.py) |  |  | Medium |
 | 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | [Python](./Python/compare-version-numbers.py) |  |  | Easy |
 | 186 | [Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/) | [Python](./Python/reverse-words-in-a-string-ii.py) |  |  | Medium |
@@ -268,7 +268,7 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | # | Title | Solution | Time | Space | Difficulty |
 | --- | --- | --- | --- | --- | --- |
 | 002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](./Python/add-two-numbers.py) |  |  | Medium |
-| 021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Python](./Python/merge-two-sorted-lists.py) |  |  | Easy |
+| 021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Python](./Python/merge-two-sorted-lists.py) | O(n) | O(n) | Easy |
 | 023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Python](./Python/merge-k-sorted-lists.py) |  |  | Hard |
 | 024 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [Python](./Python/swap-nodes-in-pairs.py) |  |  | Easy |
 | 025 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Python](./Python/reverse-nodes-in-k-group.py) |  |  | Hard |
@@ -280,8 +280,8 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Python](./Python/intersection-of-two-linked-lists.py) |  |  | Easy |
 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Python](./Python/remove-linked-list-elements.py) |  |  | Easy |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](./Python/reverse-linked-list.py) | O(n) | O(1) | Easy |
-| 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Python](./Python/palindrome-linked-list.py) |  |  | Easy |
-| 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [Python](./Python/delete-node-in-a-linked-list.py) |  |  | Easy |
+| 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Python](./Python/palindrome-linked-list.py) | O(n) | O(1) | Easy |
+| 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [Python](./Python/delete-node-in-a-linked-list.py) | O(1) | O(1) | Easy |
 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Python](./Python/odd-even-linked-list.py) |  |  | Medium |
 | 369 | [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) | [Python](./Python/plus-one-linked-list.py) |  |  | Medium |
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | [Python](./Python/add-two-numbers-ii.py) |  |  | Medium |
@@ -291,14 +291,13 @@ I will constantly seek and summarize better solutions to the problem and keep up
 ## Stack
 | # | Title | Solution | Time | Space | Difficulty |
 | --- | --- | --- | --- | --- | --- |
-| 020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Python](./Python/valid-parentheses.py) |  |  | Easy |
+| 020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Python](./Python/valid-parentheses.py) | O(n) | O(n) | Easy |
 | 032 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [Python](./Python/longest-valid-parentheses.py) |  |  | Hard |
 | 071 | [Simplify Path](https://leetcode.com/problems/simplify-path/) | [Python](./Python/simplify-path.py) |  |  | Medium |
 | 084 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Python](./Python/largest-rectangle-in-histogram.py) |  |  | Hard |
 | 085 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [Python](./Python/maximal-rectangle.py) |  |  | Hard |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Python](./Python/symmetric-tree.py) |  |  | Easy |
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Python](./Python/evaluate-reverse-polish-notation.py) |  |  | Medium |
-| 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [Python](./Python/min-stack.py) |  |  | Easy |
 | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | [Python](./Python/binary-search-tree-iterator.py) |  |  | Medium |
 | 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [Python](./Python/basic-calculator.py) |  |  | Hard |
 | 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | [Python](./Python/basic-calculator-ii.py) |  |  | Medium |
@@ -573,12 +572,12 @@ I will constantly seek and summarize better solutions to the problem and keep up
 ## Two Pointers
 | # | Title | Solution | Time | Space | Difficulty |
 | --- | --- | --- | --- | --- | --- |
-| 019 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Python](./Python/remove-nth-node-from-end-of-list.py) |  |  | Easy |
+| 019 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Python](./Python/remove-nth-node-from-end-of-list.py) | O(n) | O(1) | Easy |
 | 028 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Python](./Python/implement-strstr.py) | O(n) | O(1) | Easy |
 | 035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](./Python/search-insert-position.py) | $O(log_2(n))$ | O(1) | Easy |
 | 086 | [Partition List](https://leetcode.com/problems/partition-list/) | [Python](./Python/partition-list.py) |  |  | Medium |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Python](./Python/valid-palindrome.py) | O(n) | O(1) | Easy |
-| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](./Python/linked-list-cycle.py) |  |  | Easy |
+| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](./Python/linked-list-cycle.py) | O(n) | O(1) | Easy |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [Python](./Python/linked-list-cycle-ii.py) |  |  | Medium |
 | 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | [Python](./Python/reorder-list.py) |  |  | Medium |
 | 167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Python](./Python/two-sum-ii-input-array-is-sorted.py) | O(n) | O(n) | Easy |
@@ -617,7 +616,7 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [Python](./Python/sum-root-to-leaf-numbers.py) |  |  | Medium |
 | 156 | [Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down/) | [Python](./Python/binary-tree-upside-down.py) |  |  | Medium |
 | 241 | [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) | [Python](./Python/different-ways-to-add-parentheses.py) |  |  | Medium |
-| 298 | [Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/) | [Python](./Python/binary-tree-longest-consecutive-sequence.py) |  |  | Medium |
+| 298 | [Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/) | [Python](./Python/binary-tree-longest-consecutive-sequence.py) | O(n) | O(1) | Medium |
 | 327 | [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) | [Python](./Python/count-of-range-sum.py) |  |  | Hard |
 | 333 | [Largest BST Subtree](https://leetcode.com/problems/largest-bst-subtree/) | [Python](./Python/largest-bst-subtree.py) |  |  | Medium |
 | 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | [Python](./Python/house-robber-iii.py) |  |  | Medium |
@@ -903,7 +902,7 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | 044 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [Python](./Python/wildcard-matching.py) |  |  | Hard |
 | 045 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [Python](./Python/jump-game-ii.py) |  |  | Hard |
 | 055 | [Jump Game](https://leetcode.com/problems/jump-game/) | [Python](./Python/jump-game.py) |  |  | Medium |
-| 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Python](./Python/best-time-to-buy-and-sell-stock-ii.py) |  |  | Easy |
+| 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Python](./Python/best-time-to-buy-and-sell-stock-ii.py) | O(n) | O(1) | Easy |
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | [Python](./Python/gas-station.py) |  |  | Medium |
 | 135 | [Candy](https://leetcode.com/problems/candy/) | [Python](./Python/candy.py) |  |  | Hard |
 | 316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | [Python](./Python/remove-duplicate-letters.py) |  |  | Hard |
@@ -951,6 +950,7 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | # | Title | Solution | Time | Space | Difficulty |
 | --- | --- | --- | --- | --- | --- |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [Python](./Python/lru-cache.py) |  |  | Hard |
+| 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [Python](./Python/min-stack.py) | ---- | ---- | Easy |
 | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [Python](./Python/implement-stack-using-queues.py) |  |  | Easy |
 | 284 | [Peeking Iterator](https://leetcode.com/problems/peeking-iterator/) | [Python](./Python/peeking-iterator.py) |  |  | Medium |
 | 348 | [Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/) | [Python](./Python/design-tic-tac-toe.py) |  |  | Medium |
@@ -961,6 +961,7 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | 379 | [Design Phone Directory](https://leetcode.com/problems/design-phone-directory/) | [Python](./Python/design-phone-directory.py) |  |  | Medium |
 | 380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Python](./Python/insert-delete-getrandom-o1.py) |  |  | Hard |
 | 381 | [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) | [Python](./Python/insert-delete-getrandom-o1-duplicates-allowed.py) |  |  | Hard |
+| 384 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) | [Python](./Python/shuffle-an-array.py) | O(n) | O(1) | Medium |
 | 432 | [All O\`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/) | [Python](./Python/all-oone-data-structure.py) |  |  | Hard |
 | 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) | [Python](./Python/lfu-cache.py) |  |  | Hard |
 | 535 | [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/) | [Python](./Python/encode-and-decode-tinyurl.py) |  |  | Medium |

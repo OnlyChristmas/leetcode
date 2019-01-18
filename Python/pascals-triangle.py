@@ -26,7 +26,7 @@ class Solution:
         :type numRows: int
         :rtype: List[List[int]]
         """
-        # method one: 用了if 条件语句，不够简洁。
+        # Approach one: 用了if 条件语句，不够简洁。
         # res = []
         # for i in range(numRows+1):
         #     if i == 1:
@@ -40,8 +40,17 @@ class Solution:
         #         res.append(row)
         # return res
 
+        # Approach Two
+        answer = []
+        for i in  range(numRows):
+            if i == 0:
+                row = [1]
+            else:
+                row = [row[0]] + [i+j for i,j in zip(row[1:] , row[:-1])] + [row[-1]]
+            answer.append(row)
+        return answer
 
-        # method two
+        # Approach Three
         res = [[1]]    # 初始化[1],简化了分类讨论的步骤
         for i in range(1,numRows):
             res.append(list(map(lambda x, y : x + y, res[-1]+[0], [0]+res[-1])))

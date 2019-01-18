@@ -40,10 +40,20 @@ class Solution:
         # Time:  O(n)
         # Space: O(1)
         #
-        ans = 0
-        c = 0
+        # ans = 0
+        # c = 0
+        # for i in nums:
+        #     c = i * c + i   # 简化了上述的判断语句，遇0置0，遇1叠加。
+        #     if c > ans:
+        #         ans = c
+        # return ans
+
+        # Approach three 
+        ans = count = 0
         for i in nums:
-            c = i * c + i   # 简化了上述的判断语句，遇0置0，遇1叠加。
-            if c > ans:
-                ans = c
-        return ans
+            if i:
+                count += 1
+            else:
+                ans = max(ans ,count)
+                count = 0
+        return max(ans,count)    # 解决最后一组“1”的统计

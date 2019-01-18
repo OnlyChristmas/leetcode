@@ -39,13 +39,13 @@ class Solution:
         :type nums: List[int]
         :rtype: int
         """
-        # 思路一
+        # Approach one
         # for i in range(len(nums)-1,0,-1):
         #     if nums[i] == nums[i-1]:
         #         del nums[i]
         # return len(nums)
 
 
-        # 思路二： 巧用set()
+        # Approach two： 巧用set()
         nums[:] = sorted(list(set(nums)))  # 由于set()函数筛选过之后，不能操作。再转化为list进行排序。
         return len(set(nums))

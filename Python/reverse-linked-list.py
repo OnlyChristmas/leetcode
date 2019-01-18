@@ -26,7 +26,7 @@ class Solution:
         :rtype: ListNode
         """
 
-        # 迭代思路：重复一定的算法，达到想要的目的。数学上二分法，牛顿法是很好的迭代例子
+        # Approach one 迭代思路：重复一定的算法，达到想要的目的。数学上二分法，牛顿法是很好的迭代例子
         # while head:
         #     curr = head
         #     head = head.next
@@ -35,7 +35,7 @@ class Solution:
         # return prev
 
 
-        # 递归思路：在return处调用自己（尾递归）
+        # Approach two 递归思路：在return处调用自己（尾递归）
         if not head:
             return prev
 

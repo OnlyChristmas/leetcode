@@ -65,7 +65,3 @@ class Solution:
             if haystack[i:i+len(needle)]==needle:       #　字符串切片操作可以直接比较一个子串，不用每个字符都比较
                 return i                              # i 为 0 的时候， haystack[0:0] 表示为 0
         return -1
-
-
-
-

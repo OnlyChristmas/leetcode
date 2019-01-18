@@ -20,20 +20,46 @@ class Solution:
         :type nums: List[int]
         :rtype: void Do not return anything, modify nums in-place instead.
         """
-        # 思路一： 0 个数多的时候效率低下
+        # Approach #1： 0 个数多的时候效率低下，注意remove（）与del 操作的区别，如果用del操作，列表需要倒序遍历。
+        #
 #         for i in nums:
 #             if i == 0:
 #                 nums.remove(i)
 #                 nums.append(0)
 
-        # 思路二： 逆向循环避免多余操作（操作次数是，0个数的两倍）
-        # for i in range(len(nums)-1,-1,-1):
-        #     if nums[i] == 0:
-        #         del nums[i]
+        # Approach #2   删除0，添加0
+        # count, length  = 0, len(nums)
+        # while count != length:
+        #     if nums[count] == 0:
+        #         del nums[count]
         #         nums.append(0)
+        #         count -= 1
+        #         length -= 1
+        #     count += 1
+
+        # Approach #3 复制非0，添加零
+        # length, new_id = len(nums), 0
+        # for i in range(length):
+        #     if nums[i] != 0:
+        #         nums[new_id] = nums[i]
+        #         new_id += 1
+        # nums[new_id:] = [0] * (length - new_id)
 
 
-        # 思路三： 移动非零元素（操作次数就是非零元素的个数）
+        # Approach #4： 删除后一次性补零，减少元素位移
+        #
+        # idxs = [idx for idx , num in enumerate(nums) if num == 0]
+        # for i in idxs[::-1]:
+        #     nums.pop(i)
+        # nums += len(idxs) *[0]
+
+
+
+
+        # Approach #5： 减少交换次数（操作次数就是非零元素的个数）
+        # Time:  O(n)
+        # Space: O(1)
+        #
         j = 0   # 记录非零元素应该换到第几个位置
         for i in range(len(nums)):
             if nums[i] != 0:
