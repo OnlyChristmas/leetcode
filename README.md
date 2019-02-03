@@ -10,7 +10,8 @@ I will constantly seek and summarize better solutions to the problem and keep up
 
 
 * [Array](https://github.com/OnlyChristmas/leetcode#array)
-* [Bit Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipulation)
+* [Bit
+Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipulation)
 * [String](https://github.com/OnlyChristmas/leetcode#string)
 * [Linked List](https://github.com/OnlyChristmas/leetcode#linked-list)
 * [Stack](https://github.com/OnlyChristmas/leetcode#stack)
@@ -546,27 +547,27 @@ I will constantly seek and summarize better solutions to the problem and keep up
 
 
 ## Sort
-| # | Title | Solution | Time | Space | Difficulty |  |
-| --- | --- | --- | --- | --- | --- | --- |
-| 056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Python](./Python/merge-intervals.py) |  |  | Hard |  |
-| 057 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | [Python](./Python/insert-interval.py) |  |  | Hard |  |
-| 075 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [Python](./Python/sort-colors.py) |  |  | Medium |  |
-| 088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Python](./Python/merge-sorted-array.py) |  |  | Easy |  |
-| 147 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | [Python](./Python/insertion-sort-list.py) |  |  | Medium |  |
-| 148 | [Sort List](https://leetcode.com/problems/sort-list/) | [Python](./Python/sort-list.py) |  |  | Medium |  |
-| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | [Python](./Python/maximum-gap.py) |  |  | Hard |  |
-| 179 | [Largest Number](https://leetcode.com/problems/largest-number/) | [Python](./Python/largest-number.py) |  |  | Medium |  |
-| 218 | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | [Python](./Python/the-skyline-problem.py) |  |  | Hard |  |
-| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](./Python/valid-anagram.py) | O(n) | O(1) | Easy |  |
-| 252 | [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | [Python](./Python/meeting-rooms.py) |  |  | Easy |  |
-| 253 | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [Python](./Python/meeting-rooms-ii.py) |  |  | Medium |  |
-| 274 | [H-Index](https://leetcode.com/problems/h-index/) | [Python](./Python/h-index.py) |  |  | Medium |  |
-| 280 | [Wiggle Sort](https://leetcode.com/problems/wiggle-sort/) | [Python](./Python/wiggle-sort.py) |  |  | Medium |  |
-| 324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | [Python](./Python/wiggle-sort-ii.py) |  |  | Medium |  |
-| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Python](./Python/top-k-frequent-elements.py) |  |  | Medium |  |
-| 406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | [Python](./Python/queue-reconstruction-by-height.py) |  |  | Medium |  |
-| 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Python](./Python/sort-characters-by-frequency.py) |  |  | Medium |  |
-| 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [Python](./Python/top-k-frequent-words.py) |  |  | Medium |  |
+| # | Title | Solution | Time | Space | Difficulty |
+| --- | --- | --- | --- | --- | --- |
+| 056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Python](./Python/merge-intervals.py) |  |  | Hard |
+| 057 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | [Python](./Python/insert-interval.py) |  |  | Hard |
+| 075 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [Python](./Python/sort-colors.py) |  |  | Medium |
+| 088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Python](./Python/merge-sorted-array.py) | O(n) | O(1) | Easy |
+| 147 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | [Python](./Python/insertion-sort-list.py) |  |  | Medium |
+| 148 | [Sort List](https://leetcode.com/problems/sort-list/) | [Python](./Python/sort-list.py) |  |  | Medium |
+| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | [Python](./Python/maximum-gap.py) |  |  | Hard |
+| 179 | [Largest Number](https://leetcode.com/problems/largest-number/) | [Python](./Python/largest-number.py) |  |  | Medium |
+| 218 | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | [Python](./Python/the-skyline-problem.py) |  |  | Hard |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](./Python/valid-anagram.py) | O(n) | O(1) | Easy |
+| 252 | [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | [Python](./Python/meeting-rooms.py) |  |  | Easy |
+| 253 | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [Python](./Python/meeting-rooms-ii.py) |  |  | Medium |
+| 274 | [H-Index](https://leetcode.com/problems/h-index/) | [Python](./Python/h-index.py) |  |  | Medium |
+| 280 | [Wiggle Sort](https://leetcode.com/problems/wiggle-sort/) | [Python](./Python/wiggle-sort.py) |  |  | Medium |
+| 324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | [Python](./Python/wiggle-sort-ii.py) |  |  | Medium |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Python](./Python/top-k-frequent-elements.py) |  |  | Medium |
+| 406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | [Python](./Python/queue-reconstruction-by-height.py) |  |  | Medium |
+| 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Python](./Python/sort-characters-by-frequency.py) |  |  | Medium |
+| 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [Python](./Python/top-k-frequent-words.py) |  |  | Medium |
 
 
 ## Two Pointers
@@ -658,6 +659,7 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/dsingle-element-in-a-sorted-array/) | [Python](./Python/single-element-in-a-sorted-array.py) |  |  | Medium |
 | 658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | [Python](./Python/find-k-closest-elements.py) |  |  | Medium |
 | 668 | [Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/) | [Python](./Python/kth-smallest-number-in-multiplication-table.py) |  |  | Hard |
+| 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [Python](./Python/binary-search.py) | O(nlogn) | O(1) | Easy |
 | 719 | [Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/) | [Python](./Python/find-k-th-smallest-pair-distance.py) |  |  | Hard |
 | 744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [Python](./Python/find-smallest-letter-greater-than-target.py) | $O(log_2(n))$ | O(1) | Easy |
 | 774 | [Minimize Max Distance to Gas Station](https://leetcode.com/problems/minimize-max-distance-to-gas-station/) | [Python](./Python/minimize-max-distance-to-gas-station.py) |  |  | Hard |
@@ -828,7 +830,7 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | 256 | [Paint House](https://leetcode.com/problems/paint-house/) | [Python](./Python/paint-house.py) |  |  | Medium |
 | 265 | [Paint House II](https://leetcode.com/problems/paint-house-ii/) | [Python](./Python/paint-house-ii.py) |  |  | Hard |
 | 276 | [Paint Fence](https://leetcode.com/problems/paint-fence/) | [Python](./Python/paint-fence.py) |  |  | Easy |
-| 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [Python](./Python/perfect-squares.py) |  |  | Medium |
+| 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [Python](./Python/perfect-squares.py) | O(log_2n) | O(1) | Medium |
 | 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | [Python](./Python/range-sum-query-immutable.py) |  |  | Easy |
 | 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | [Python](./Python/range-sum-query-2d-immutable.py) |  |  | Medium |
 | 309 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [Python](./Python/best-time-to-buy-and-sell-stock-with-cooldown.py) |  |  | Medium |
@@ -967,6 +969,7 @@ I will constantly seek and summarize better solutions to the problem and keep up
 | 535 | [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/) | [Python](./Python/encode-and-decode-tinyurl.py) |  |  | Medium |
 | 588 | [Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/) | [Python](./Python/design-in-memory-file-system.py) |  |  | Hard |
 | 604 | [Design Compressed String Iterator](https://leetcode.com/problems/design-compressed-string-iterator/) | [Python](./Python/design-compressed-string-iterator.py) |  |  | Easy |
+| 622 | [Design Circular Queue](https://leetcode.com/problems/design-compressed-string-iterator/) | [Python](./Python/design-circular-queue.py) |  |  | Medium |
 | 631 | [Design Excel Sum Formula](https://leetcode.com/problems/design-excel-sum-formula/) | [Python](./Python/design-excel-sum-formula.py) |  |  | Hard |
 | 635 | [Design Log Storage System](https://leetcode.com/problems/design-log-storage-system/) | [Python](./Python/design-log-storage-system.py) |  |  | Medium |
 | 642 | [Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/) | [Python](./Python/design-search-autocomplete-system.py) |  |  | Hard |
