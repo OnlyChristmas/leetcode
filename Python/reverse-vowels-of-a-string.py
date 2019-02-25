@@ -41,18 +41,15 @@ class Solution:
 
 
         # Approach #4
-        vowels = "aeiouAEIOU"
+        vowel = 'aeiouAEIOU'
         ss = list(s)
-        i, j = 0, len(s) - 1
-        while i < j:
-            if ss[i] not in vowels:
-                i += 1
-            elif ss[j] not in vowels:
-                j -= 1
+        l,r = 0, len(s) - 1
+        while l < r:
+            if ss[l] in vowel:
+                if ss[r] in vowel:
+                    ss[l],ss[r] = ss[r],ss[l]
+                    l += 1
+                r -= 1
             else:
-                ss[i], ss[j] = ss[j], ss[i]
-                i += 1
-                j -= 1
-        return "".join(ss)
-
-        
+                l += 1
+        return ''.join(ss)

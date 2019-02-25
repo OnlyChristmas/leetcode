@@ -23,4 +23,9 @@ class Solution:
         :type nums2: List[int]
         :rtype: List[int]
         """
+
+        # Approach one
+        # return list(set(nums1).intersection( set(nums2)))
+
+        # Approach two  位运算比调用函数效率更高
         return list(set(nums1) & set(nums2))

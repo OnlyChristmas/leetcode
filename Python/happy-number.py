@@ -54,6 +54,12 @@ class Solution:
 
 
 
-
-
-    
+        # Approach Three  没有发现1，7数学规律的解法
+        tt = {}
+        while n != 1:
+            if tt.get(n,0) == 1:
+                return False
+            else:
+                tt[n] = 1
+                n = sum([int(i)**2 for i in str(str(n))])
+        return True

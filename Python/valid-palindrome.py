@@ -32,7 +32,7 @@ class Solution:
         # s = re.sub('[^a-z0-9]','',s.lower())
         # return s == s[::-1]
 
-         # 思路三： 聪明小哥哥的做法
+         # 思路三： 聪明小哥哥的做法 ,但效率不如方法二
         s = list(filter(str.isalnum, s.lower()))
         return s == s[::-1]
         # isalnum() 检测字符串是不是由字母和数字组成（作为arg2的筛选条件）

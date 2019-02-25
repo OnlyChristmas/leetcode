@@ -62,7 +62,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | [Python](./Python/spiral-matrix-ii.py) |  |  | Medium |
 | 066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Python](./Python/plus-one.py) | O(n) | O(n) | Easy |
 | 073 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Python](./Python/set-matrix-zeroes.py) |  |  | Medium |
-| 080 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [Python](./Python/remove-duplicates-from-sorted-array-ii.py) |  |  | Medium |
+| 080 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [Python](./Python/remove-duplicates-from-sorted-array-ii.py) | O(n) | O(1) | Medium |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](./Python/pascals-triangle.py) | O(n) | O(n) | Easy |
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [Python](./Python/pascals-triangle-ii.py) | O(n) | O(k) | Easy |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](./Python/best-time-to-buy-and-sell-stock.py) | O(n) | O(1) | Easy |
@@ -78,7 +78,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [Python](./Python/rotate-array.py) | O(k) | O(1) | Easy |
 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Python](./Python/minimum-size-subarray-sum.py) |  |  | Medium |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](./Python/contains-duplicate.py) | O(n) | O(1) | Easy |
-| 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Python](./Python/kth-largest-element-in-an-array.py) |  |  | Medium |
+| 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Python](./Python/kth-largest-element-in-an-array.py) | O(n) | O(1) | Medium |
 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) | [Python](./Python/summary-ranges.py) |  |  | Medium |
 | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Python](./Python/majority-element-ii.py) |  |  | Medium |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Python](./Python/product-of-array-except-self.py) |  |  | Medium |
@@ -408,7 +408,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) | [Python](./Python/repeated-dna-sequences.py) |  |  | Medium |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | [Python](./Python/happy-number.py) | O(n) | O(1) | Easy |
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | [Python](./Python/count-primes.py) | O(n) | O(n) | Easy |
-| 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [Python](./Python/isomorphic-strings.py) |  |  | Easy |
+| 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [Python](./Python/isomorphic-strings.py) | O(n) | O(1) | Easy |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](./Python/contains-duplicate.py) | O(n) | O(1) | Easy |
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Python](./Python/contains-duplicate-ii.py) |  |  | Easy |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](./Python/valid-anagram.py) | O(n) | O(1) | Easy |
@@ -551,7 +551,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | --- | --- | --- | --- | --- | --- |
 | 056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Python](./Python/merge-intervals.py) |  |  | Hard |
 | 057 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | [Python](./Python/insert-interval.py) |  |  | Hard |
-| 075 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [Python](./Python/sort-colors.py) |  |  | Medium |
+| 075 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [Python](./Python/sort-colors.py) | O(n) | O(1) | Medium |
 | 088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Python](./Python/merge-sorted-array.py) | O(n) | O(1) | Easy |
 | 147 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | [Python](./Python/insertion-sort-list.py) |  |  | Medium |
 | 148 | [Sort List](https://leetcode.com/problems/sort-list/) | [Python](./Python/sort-list.py) |  |  | Medium |
@@ -899,7 +899,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 ## Greedy
 | # | Title | Solution | Time | Space | Difficulty |
 | --- | --- | --- | --- | --- | --- |
-| 011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Python](./Python/container-with-most-water.py) |  |  | Medium |
+| 011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Python](./Python/container-with-most-water.py) | O(n) | O(1) | Medium |
 | 042 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Python](./Python/trapping-rain-water.py) |  |  | Hard |
 | 044 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [Python](./Python/wildcard-matching.py) |  |  | Hard |
 | 045 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [Python](./Python/jump-game-ii.py) |  |  | Hard |

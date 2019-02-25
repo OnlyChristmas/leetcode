@@ -31,9 +31,8 @@ class Solution:
         :rtype: List[int]
         """
 
-        # 巧用python库中的Counter()来构造字典
-
-        # 思路一： 只构造一个字典,nums2比较大时，节省一次构造的时间
+         # 巧用python库中的Counter()来构造字典
+        # Approach one： 只构造一个字典,nums2比较大时，节省一次构造的时间
         # from collections import Counter
         # result = []
         # dic1 = Counter(nums1)
@@ -46,40 +45,56 @@ class Solution:
         # return result
 
 
-          # 思路二： 构造两个字典则不用频繁的字典操作
-            # from collections import Counter
+         # Approach two： 构造两个字典则不用频繁的字典操作
+        # from collections import Counter
 #         result = []
 #         dic1,dic2 = Counter(nums1),Counter(nums2)
-
 #         for num in dic2.keys():
 #             if num in dic1.keys():
 #                 repeat = min(dic1.get(num),dic2.get(num))
 #                 for i in range(repeat):
 #                     result.append(num)
-
 #         return result
 
 
 
         # Approach #3   直接对字典操作，注意dic.elements()  返回的是一个迭代器。需要list()才能正常输出。
         # 这里用values()没办法输出重复的值。
-        # return list((collections.Counter(nums1)&collections.Counter(nums2)).elements())
+        return list((collections.Counter(nums1)&collections.Counter(nums2)).elements())
 
 
 
 
-        # Approach #4  two pointers solution , don't make count.
-        nums1.sort(), nums2.sort()  # Make sure it is sorted, doesn't count in time.
-        res = []
-        it1, it2 = 0, 0
-        while it1 < len(nums1) and it2 < len(nums2):
-            if nums1[it1] < nums2[it2]:
-                it1 += 1
-            elif nums1[it1] > nums2[it2]:
-                it2 += 1
-            else:
-                res += nums1[it1],
-                it1 += 1
-                it2 += 1
+        # Approach #4  two pointers solution
+        # nums1.sort(), nums2.sort()  # Make sure it is sorted, doesn't count in time.
+        # res = []
+        # it1, it2 = 0, 0
+        # while it1 < len(nums1) and it2 < len(nums2):
+        #     if nums1[it1] < nums2[it2]:
+        #         it1 += 1
+        #     elif nums1[it1] > nums2[it2]:
+        #         it2 += 1
+        #     else:
+        #         res += nums1[it1],
+        #         it1 += 1
+        #         it2 += 1
+        # return res
 
-        return res
+
+
+
+
+        # Approach five
+        # res  = []
+        # dic1 = {}
+        # for i in nums1:
+        #     dic1[i] = dic1.get(i,0) + 1
+        # dic2 = {}
+        # for i in nums2:
+        #     dic2[i] = dic2.get(i,0) + 1
+        # for k,v in dic1.items():
+        #     if v < dic2.get(k,0):
+        #         res += [k]*v
+        #     else:
+        #         res += [k]*dic2.get(k,0)
+        # return res

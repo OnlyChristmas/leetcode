@@ -25,9 +25,7 @@ class Solution:
         :type t: str
         :rtype: bool
         """
-        # 相同种类，个数的字母组成，只是字母位置不一样
-
-        # 思路一：
+        # Approach one ：
         # if set(s) == set(t) and len(s) == len(t):
         #     for i in set(s):
         #         if s.count(i) != t.count(i):
@@ -35,5 +33,9 @@ class Solution:
         #     return True
         # return False
 
-        # 思路二：一种更优雅的完成方式        all(iterable)：当 iterable 中所有元素都为 True 时（或者 iterable 为空），返回 True 。
-        return set(s) == set(t) and all(s.count(i) == t.count(i) for i in set(s))
+        # Approach two：一种更优雅的完成方式        all(iterable)：当 iterable 中所有元素都为 True 时（或者 iterable 为空），返回 True 。
+        # return set(s) == set(t) and all(s.count(i) == t.count(i) for i in set(s))
+
+
+        # Approach three
+        return collections.Counter(s) == collections.Counter(t)
