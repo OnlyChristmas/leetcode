@@ -49,9 +49,9 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | # | Title | Solution | Time | Space | Difficulty |
 | --- | --- | --- | --- | --- | --- |
 | 001 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./Python/two-sum.py) | O(n) | O(n) | Easy |
-| 015 | [3 Sum](https://leetcode.com/problems/3sum/) | [Python](./Python/3sum.py) |  |  | Medium |
+| 015 | [3 Sum](https://leetcode.com/problems/3sum/) | [Python](./Python/3sum.py) | O(j*k) | O(n) | Medium |
 | 016 | [3 Sum Closest](https://leetcode.com/problems/3sum-closest/) | [Python](./Python/3sum-closest.py) |  |  | Medium |
-| 018 | [4 Sum](https://leetcode.com/problems/4sum/) | [Python](./Python/4sum.py) |  |  | Medium |
+| 018 | [4 Sum](https://leetcode.com/problems/4sum/) | [Python](./Python/4sum.py) | $O(n^2)$ | O(n) | Medium |
 | 026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](./Python/remove-duplicates-from-sorted-array.py) | $O(n^2)$ | O(1) | Easy |
 | 027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Python](./Python/remove-element.py) | O(n) | O(1) | Easy |
 | 031 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [Python](./Python/next-permutation.py) |  |  | Medium |
@@ -399,10 +399,10 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](./Python/longest-substring-without-repeating-characters.py) |  |  | Medium |
 | 030 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | [Python](./Python/substring-with-concatenation-of-all-words.py) |  |  | Hard |
 | 036 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](./Python/valid-sudoku.py) | $O(n^2)$ | O(n) | Medium |
-| 049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Python](./Python/group-anagrams.py) |  |  | Medium |
+| 049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Python](./Python/group-anagrams.py) | O(n) | O(n) | Medium |
 | 076 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Python](./Python/minimum-window-substring.py) |  |  | Hard |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | [Python](./Python/single-number.py) | O(n) | O(1) | Easy |
-| 149 | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | [Python](./Python/max-points-on-a-line.py) |  |  | Hard |
+| 149 | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | [Python](./Python/max-points-on-a-line.py) | $O(n^2)$ | O(n) | Hard |
 | 159 | [Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) | [Python](./Python/longest-substring-with-at-most-two-distinct-characters.py) |  |  | Hard |
 | 170 | [Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/) | [Python](./Python/two-sum-iii-data-structure-design.py) |  |  | Easy |
 | 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) | [Python](./Python/repeated-dna-sequences.py) |  |  | Medium |
@@ -410,7 +410,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | [Python](./Python/count-primes.py) | O(n) | O(n) | Easy |
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [Python](./Python/isomorphic-strings.py) | O(n) | O(1) | Easy |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](./Python/contains-duplicate.py) | O(n) | O(1) | Easy |
-| 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Python](./Python/contains-duplicate-ii.py) |  |  | Easy |
+| 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Python](./Python/contains-duplicate-ii.py) | O(n) | O(n) | Easy |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](./Python/valid-anagram.py) | O(n) | O(1) | Easy |
 | 244 | [Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/) | [Python](./Python/shortest-word-distance-ii.py) |  |  | Medium |
 | 246 | [Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/) | [Python](./Python/strobogrammatic-number.py) |  |  | Easy |
@@ -433,8 +433,8 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | [Python](./Python/longest-palindrome.py) |  |  | Easy |
 | 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Python](./Python/longest-repeating-character-replacement.py) |  |  | Medium |
 | 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Python](./Python/find-all-anagrams-in-a-string.py) |  |  | Easy |
-| 447 | [Number of Boomerangs](https://leetcode.com/problems/number-of-boomerangs/) | [Python](./Python/number-of-boomerangs.py) |  |  | Easy |
-| 454 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | [Python](./Python/4sum-ii.py) |  |  | Medium |
+| 447 | [Number of Boomerangs](https://leetcode.com/problems/number-of-boomerangs/) | [Python](./Python/number-of-boomerangs.py) | O(n^2) | O(n) | Easy |
+| 454 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | [Python](./Python/4sum-ii.py) | $O(n^2)$ | O(n) | Medium |
 | 470 | [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/) | [Python](./Python/implement-rand10-using-rand7.py) |  |  | Medium |
 | 473 | [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/) | [Python](./Python/matchsticks-to-square.py) |  |  | Medium |
 | 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/description/) | [Python](./Python/keyboard-row.py) | O(n) | O(n) | Easy |
@@ -566,7 +566,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | [Python](./Python/wiggle-sort-ii.py) |  |  | Medium |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Python](./Python/top-k-frequent-elements.py) |  |  | Medium |
 | 406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | [Python](./Python/queue-reconstruction-by-height.py) |  |  | Medium |
-| 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Python](./Python/sort-characters-by-frequency.py) |  |  | Medium |
+| 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Python](./Python/sort-characters-by-frequency.py) | O(nlogn) | 1 | Medium |
 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [Python](./Python/top-k-frequent-words.py) |  |  | Medium |
 
 
@@ -673,7 +673,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 ## Binary Search Tree
 | # | Title | Solution | Time | Space | Difficulty |
 | --- | --- | --- | --- | --- | --- |
-| 220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) | [Python](./Python/contains-duplicate-iii.py) |  |  | Medium |
+| 220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) | [Python](./Python/contains-duplicate-iii.py) | $O(n^2)$ | O(1) | Medium |
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Python](./Python/kth-smallest-element-in-a-bst.py) |  |  | Medium |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](./Python/lowest-common-ancestor-of-a-binary-search-tree.py) |  |  | Easy |
 | 270 | [Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/) | [Python](./Python/closest-binary-search-tree-value.py) |  |  | Easy |
