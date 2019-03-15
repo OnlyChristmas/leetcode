@@ -21,11 +21,30 @@ class Solution:
         :type nums: List[int]
         :rtype: int
         """
-        # method one 运用set()特性
-        # for i in set(nums):
-        #     if nums.count(i) * 2 > len(nums):
-        #         return i
+
+        # Approach one
+        # from collections import Counter
+        # import math
+        # length = math.ceil(len(nums) / 2)
+        # for k,v in Counter(nums).items():
+        #     if v >= length:
+        #         return k
 
 
-        # method two 排序中位数
-        return  sorted(nums)[ len(nums) // 2 ]
+        # Approach two      巧用max(arg,key)免去反转字典
+        # from collections import Counter
+        # dic = Counter(nums)
+        # return max(dic , key = dic.get)
+
+
+
+        # Approach three     利用本文中众数的特殊定义，排序后中间的数字必为答案
+        # return sorted(nums)[int(len(nums)/2)]
+
+
+
+        # Approach four    定义结合set()特性
+        length = len(nums)
+        for i in set(nums):
+            if nums.count(i) * 2 > length:
+                return i

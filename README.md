@@ -74,7 +74,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [Python](./Python/find-peak-element.py) | $O(log_2(n))$ | O(1) | Medium |
 | 163 | [Missing Ranges](https://leetcode.com/problems/missing-ranges/) | [Python](./Python/missing-ranges.py) |  |  | Medium |
 | 167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Python](./Python/two-sum-ii-input-array-is-sorted.py) | O(n) | O(n) | Easy |
-| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [Python](./Python/majority-element.py) | $O(nlog_2(n))$ | O(1) | Easy |
+| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [Python](./Python/majority-element.py) | O(n) | O(1) | Easy |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [Python](./Python/rotate-array.py) | O(k) | O(1) | Easy |
 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Python](./Python/minimum-size-subarray-sum.py) |  |  | Medium |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](./Python/contains-duplicate.py) | O(n) | O(1) | Easy |
@@ -82,7 +82,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) | [Python](./Python/summary-ranges.py) |  |  | Medium |
 | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Python](./Python/majority-element-ii.py) |  |  | Medium |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Python](./Python/product-of-array-except-self.py) |  |  | Medium |
-| 240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Python](./Python/search-a-2d-matrix-ii.py) |  |  | Medium |
+| 240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Python](./Python/search-a-2d-matrix-ii.py) | O(n) | O(1) | Medium |
 | 243 | [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/) | [Python](./Python/shortest-word-distance.py) |  |  | Easy |
 | 245 | [Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/) | [Python](./Python/shortest-word-distance-iii.py) |  |  | Medium |
 | 251 | [Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/) | [Python](./Python/flatten-2d-vector.py) |  |  | Medium |
@@ -351,11 +351,11 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 ## Tree
 | # | Title | Solution | Time | Space | Difficulty |
 | --- | --- | --- | --- | --- | --- |
-| 094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Python](./Python/binary-tree-inorder-traversal.py) |  |  | Medium |
+| 094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Python](./Python/binary-tree-inorder-traversal.py) | O(n) | O(1) | Medium |
 | 099 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | [Python](./Python/recover-binary-search-tree.py) |  |  | Hard |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Python](./Python/maximum-depth-of-binary-tree.py) | O(n) | O(1) | Easy |
-| 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Python](./Python/binary-tree-preorder-traversal.py) |  |  | Medium |
-| 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Python](./Python/binary-tree-postorder-traversal.py) |  |  | Hard |
+| 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Python](./Python/binary-tree-preorder-traversal.py) | O(n) | O(1) | Medium |
+| 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Python](./Python/binary-tree-postorder-traversal.py) | O(n) | O(1) | Hard |
 | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Python](./Python/implement-trie-prefix-tree.py) |  |  | Medium |
 | 211 | [Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/) | [Python](./Python/add-and-search-word-data-structure-design.py) |  |  | Medium |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Python](./Python/invert-binary-tree.py) | O(n) | O(1) | Easy |
@@ -604,7 +604,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | --- | --- | --- | --- | --- | --- |
 | 095 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [Python](./Python/unique-binary-search-trees-ii.py) |  |  | Medium |
 | 098 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Python](./Python/validate-binary-search-tree.py) |  |  | Medium |
-| 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | [C+](./C++/same-tree.cpp) [Python](./Python/same-tree.py) |  |  | Easy |
+| 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | [Python](./Python/same-tree.py) |  |  | Easy |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Python](./Python/construct-binary-tree-from-preorder-and-inorder-traversal.py) |  |  | Medium |
 | 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [Python](./Python/construct-binary-tree-from-inorder-and-postorder-traversal.py) |  |  | Medium |
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Python](./Python/convert-sorted-array-to-binary-search-tree.py) |  |  | Medium |
@@ -690,7 +690,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 ## Breadth-First Search
 | # | Title | Solution | Time | Space | Difficulty |
 | --- | --- | --- | --- | --- | --- |
-| 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Python](./Python/binary-tree-level-order-traversal.py) |  |  | Easy |
+| 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Python](./Python/binary-tree-level-order-traversal.py) | O(n) | O(n) | Medium |
 | 107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | [Python](./Python/binary-tree-level-order-traversal-ii.py) |  |  | Easy |
 | 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [Python](./Python/binary-tree-zigzag-level-order-traversal.py) |  |  | Medium |
 | 117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | [Python](./Python/populating-next-right-pointers-in-each-node-ii.py) |  |  | Hard |
