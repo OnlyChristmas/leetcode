@@ -33,10 +33,5 @@ class Solution:
         :type root: TreeNode
         :rtype: int
         """
-        # root 结点为空的时候，单独处理
-        if root is None:
-            return 0
-
-        # 注意，加一操作放在外边可以减少加法运算，不影响比大小的结果。
+        if not root : return 0
         return max(self.maxDepth(root.left), self.maxDepth(root.right))+1
-

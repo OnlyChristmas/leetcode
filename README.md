@@ -59,7 +59,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 041 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [Python](./Python/first-missing-positive.py) |  |  | Hard |
 | 048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Python](./Python/rotate-image.py) | O(n$log_2(n)$) | O(1) | Medium |
 | 054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./Python/spiral-matrix.py) | O(n) | O(n) | Medium |
-| 059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | [Python](./Python/spiral-matrix-ii.py) |  |  | Medium |
+| 059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | [Python](./Python/spiral-matrix-ii.py) | O(n) | O(1) | Medium |
 | 066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Python](./Python/plus-one.py) | O(n) | O(n) | Easy |
 | 073 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Python](./Python/set-matrix-zeroes.py) |  |  | Medium |
 | 080 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [Python](./Python/remove-duplicates-from-sorted-array-ii.py) | O(n) | O(1) | Medium |
@@ -278,7 +278,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 083 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Python](./Python/remove-duplicates-from-sorted-list.py) |  |  | Easy |
 | 092 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | [Python](./Python/reverse-linked-list-ii.py) |  |  | Medium |
 | 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Python](./Python/copy-list-with-random-pointer.py) |  |  | Hard |
-| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Python](./Python/intersection-of-two-linked-lists.py) |  |  | Easy |
+| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Python](./Python/intersection-of-two-linked-lists.py) | O(n) | O(1) | Easy |
 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Python](./Python/remove-linked-list-elements.py) |  |  | Easy |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](./Python/reverse-linked-list.py) | O(n) | O(1) | Easy |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Python](./Python/palindrome-linked-list.py) | O(n) | O(1) | Easy |
@@ -297,7 +297,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 071 | [Simplify Path](https://leetcode.com/problems/simplify-path/) | [Python](./Python/simplify-path.py) |  |  | Medium |
 | 084 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Python](./Python/largest-rectangle-in-histogram.py) |  |  | Hard |
 | 085 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [Python](./Python/maximal-rectangle.py) |  |  | Hard |
-| 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Python](./Python/symmetric-tree.py) |  |  | Easy |
+| 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Python](./Python/symmetric-tree.py) | O(n) | O(1) | Easy |
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Python](./Python/evaluate-reverse-polish-notation.py) |  |  | Medium |
 | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | [Python](./Python/binary-search-tree-iterator.py) |  |  | Medium |
 | 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [Python](./Python/basic-calculator.py) |  |  | Hard |
@@ -675,7 +675,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | --- | --- | --- | --- | --- | --- |
 | 220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) | [Python](./Python/contains-duplicate-iii.py) | $O(n^2)$ | O(1) | Medium |
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Python](./Python/kth-smallest-element-in-a-bst.py) |  |  | Medium |
-| 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](./Python/lowest-common-ancestor-of-a-binary-search-tree.py) |  |  | Easy |
+| 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](./Python/lowest-common-ancestor-of-a-binary-search-tree.py) | O(n) | O(1) | Easy |
 | 270 | [Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/) | [Python](./Python/closest-binary-search-tree-value.py) |  |  | Easy |
 | 285 | [Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) | [Python](./Python/inorder-successor-in-bst.py) |  |  | Medium |
 | 352 | [Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/) | [Python](./Python/data-stream-as-disjoint-intervals.py) |  |  | Hard |
@@ -777,7 +777,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 051 | [N-Queens](https://leetcode.com/problems/n-queens/) | [Python](./Python/n-queens.py) |  |  | Hard |
 | 052 | [N-Queens-II](https://leetcode.com/problems/n-queens-ii/) | [Python](./Python/n-queens-ii.py) |  |  | Hard |
 | 077 | [Combinations](https://leetcode.com/problems/combinations/) | [Python](./Python/combinations.py) |  |  | Medium |
-| 078 | [Subsets](https://leetcode.com/problems/subsets/) | [Python](./Python/subsets.py) |  |  | Medium |
+| 078 | [Subsets](https://leetcode.com/problems/subsets/) | [Python](./Python/subsets.py) | O(n2) | O(n) | Medium |
 | 079 | [Word Search](https://leetcode.com/problems/word-search/) | [Python](./Python/word-search.py) |  |  | Medium |
 | 090 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | [Python](./Python/subsets-ii.py) |  |  | Medium |
 | 093 | [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/) | [Python](./Python/restore-ip-addresses.py) |  |  | Medium |
@@ -805,7 +805,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | # | Title | Solution | Time | Space | Difficulty |
 | --- | --- | --- | --- | --- | --- |
 | 010 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [Python](./Python/regular-expression-matching.py) |  |  | Hard |
-| 053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Python](./Python/maximum-subarray.py) |  |  | Medium |
+| 053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Python](./Python/maximum-subarray.py) | O(n) | O(1) | Easy |
 | 062 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Python](./Python/unique-paths.py) |  |  | Medium |
 | 063 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [Python](./Python/unique-paths-ii.py) |  |  | Medium |
 | 064 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Python](./Python/minimum-path-sum.py) |  |  | Medium |
