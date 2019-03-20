@@ -101,6 +101,3 @@ class Solution(object):
         while slow and slow.val == res.val:
             slow, res = slow.next, res.next
         return not slow
-
-
-        

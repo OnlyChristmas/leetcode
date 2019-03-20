@@ -197,7 +197,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Python](./Python/longest-common-prefix.py) | $O(n^2)$ | O(1) | Easy |
 | 028 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Python](./Python/implement-strstr.py) | O(n) | O(1) | Easy |
 | 038 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [Python](./Python/count-and-say.py) | O($n*2^n$) | O($2^n$) | Easy |
-| 043 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [Python](./Python/multiply-strings.py) |  |  | Medium |
+| 043 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [Python](./Python/multiply-strings.py) | $O(n^2) | O(n) | Medium |
 | 058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Python](./Python/length-of-last-word.py) |  |  | Easy |
 | 067 | [Add Binary](https://leetcode.com/problems/add-binary/) | [Python](./Python/add-binary.py) | O(n) | O(1) | Easy |
 | 068 | [Text Justification](https://leetcode.com/problems/text-justification/) | [Python](./Python/text-justification.py) |  |  | Hard |
@@ -268,26 +268,29 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 ## Linked List
 | # | Title | Solution | Time | Space | Difficulty |
 | --- | --- | --- | --- | --- | --- |
-| 002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](./Python/add-two-numbers.py) |  |  | Medium |
+| 002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](./Python/add-two-numbers.py) | O(n) | O(n) | Medium |
 | 021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Python](./Python/merge-two-sorted-lists.py) | O(n) | O(n) | Easy |
 | 023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Python](./Python/merge-k-sorted-lists.py) |  |  | Hard |
 | 024 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [Python](./Python/swap-nodes-in-pairs.py) |  |  | Easy |
 | 025 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Python](./Python/reverse-nodes-in-k-group.py) |  |  | Hard |
-| 061 | [Rotate List](https://leetcode.com/problems/rotate-list/) | [Python](./Python/rotate-list.py) |  |  | Medium |
+| 061 | [Rotate List](https://leetcode.com/problems/rotate-list/) | [Python](./Python/rotate-list.py) | O(n) | O(1) | Medium |
 | 082 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [Python](./Python/remove-duplicates-from-sorted-list-ii.py) |  |  | Medium |
 | 083 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Python](./Python/remove-duplicates-from-sorted-list.py) |  |  | Easy |
 | 092 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | [Python](./Python/reverse-linked-list-ii.py) |  |  | Medium |
-| 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Python](./Python/copy-list-with-random-pointer.py) |  |  | Hard |
+| 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Python](./Python/copy-list-with-random-pointer.py) | O(n) | O(n) | Hard |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Python](./Python/intersection-of-two-linked-lists.py) | O(n) | O(1) | Easy |
-| 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Python](./Python/remove-linked-list-elements.py) |  |  | Easy |
+| 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Python](./Python/remove-linked-list-elements.py) | O(n) | O(1) | Easy |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](./Python/reverse-linked-list.py) | O(n) | O(1) | Easy |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Python](./Python/palindrome-linked-list.py) | O(n) | O(1) | Easy |
 | 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [Python](./Python/delete-node-in-a-linked-list.py) | O(1) | O(1) | Easy |
-| 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Python](./Python/odd-even-linked-list.py) |  |  | Medium |
+| 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Python](./Python/odd-even-linked-list.py) | O(n) | O(1) | Medium |
 | 369 | [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) | [Python](./Python/plus-one-linked-list.py) |  |  | Medium |
+| 430 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/submissions/) | [Python](./Python/flatten-a-multilevel-doubly-linked-list.py) | O(n) | O(1) | Meduim |
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | [Python](./Python/add-two-numbers-ii.py) |  |  | Medium |
 | 725 | [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | [Python](./Python/split-linked-list-in-parts.py) |  |  | Medium |
 | 817 | [Linked List Components](https://leetcode.com/problems/linked-list-components/) | [Python](./Python/linked-list-components.py) |  |  | Medium |
+
+
 
 ## Stack
 | # | Title | Solution | Time | Space | Difficulty |
@@ -324,6 +327,8 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 856 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | [Python](./Python/score-of-parentheses.py) |  |  | Medium |
 | 872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | [Python](./Python/leaf-similar-trees.py) |  |  | Easy |
 
+
+
 ## Queue
 | # | Title | Solution | Time | Space | Difficulty |
 | --- | --- | --- | --- | --- | --- |
@@ -331,6 +336,11 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 281 | [Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/) | [Python](./Python/zigzag-iterator.py) |  |  | Medium |
 | 346 | [Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/) | [Python](./Python/moving-average-from-data-stream.py) |  |  | Easy |
 | 862 | [Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) | [Python](./Python/shortest-subarray-with-sum-at-least-k.py) |  |  | Hard |
+
+
+
+
+
 
 ## Heap
 | # | Title | Solution | Time | Space | Difficulty |
@@ -347,6 +357,11 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 855 | [Exam Room](https://leetcode.com/problems/exam-room/) | [Python](./Python/exam-room.py) |  |  | Medium |
 | 857 | [Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) | [Python](./Python/minimum-cost-to-hire-k-workers.py) |  |  | Hard |
 | 871 | [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) | [Python](./Python/minimum-number-of-refueling-stops.py) |  |  | Hard |
+
+
+
+
+
 
 ## Tree
 | # | Title | Solution | Time | Space | Difficulty |
@@ -458,6 +473,8 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 825 | [Friends Of Appropriate Ages](https://leetcode.com/problems/friends-of-appropriate-ages/) | [Python](./Python/friends-of-appropriate-ages.py) |  |  | Medium |
 | 869 | [Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/) | [Python](./Python/reordered-power-of-2.py) |  |  | Medium |
 | 873 | [Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/) | [Python](./Python/length-of-longest-fibonacci-subsequence.py) |  |  | Medium |
+
+
 
 
 ## Math
@@ -973,6 +990,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 631 | [Design Excel Sum Formula](https://leetcode.com/problems/design-excel-sum-formula/) | [Python](./Python/design-excel-sum-formula.py) |  |  | Hard |
 | 635 | [Design Log Storage System](https://leetcode.com/problems/design-log-storage-system/) | [Python](./Python/design-log-storage-system.py) |  |  | Medium |
 | 642 | [Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/) | [Python](./Python/design-search-autocomplete-system.py) |  |  | Hard |
+| 707 | [Design Linked List](https://leetcode.com/problems/design-linked-list/) | [Python](./Python/design-linked-list.py) | - | - | Easy |
 | 715 | [Range Module](https://leetcode.com/problems/range-module/) | [Python](./Python/range-module.py) |  |  | Hard |
 | 716 | [Max Stack](https://leetcode.com/problems/max-stack/) | [Python](./Python/max-stack.py) |  |  | Easy |
 | 745 | [Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/) | [Python](./Python/prefix-and-suffix-search.py) |  |  | Hard |
