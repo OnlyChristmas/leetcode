@@ -217,7 +217,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 408 | [Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/) | [Python](./Python/valid-word-abbreviation.py) |  |  | Easy |
 | 415 | [Add Strings](https://leetcode.com/problems/add-strings/) | [Python](./Python/add-strings.py) |  |  | Easy |
 | 420 | [Strong Password Checker](https://leetcode.com/problems/strong-password-checker/) | [Python](./Python/strong-password-checker.py) |  |  | Hard |
-| 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/) | [Python](./Python/number-of-segments-in-a-string.py) |  |  | Easy |
+| 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/) | [Python](./Python/number-of-segments-in-a-string.py) | O(n) | O(1) | Easy |
 | 443 | [String Compression](https://leetcode.com/problems/string-compression/) | [Python](./Python/string-compression.py) |  |  | Easy |
 | 459 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/) | [Python](./Python/repeated-substring-pattern.py) |  |  | Easy |
 | 468 | [Validate IP Address](https://leetcode.com/problems/validate-ip-address/) | [Python](./Python/validate-ip-address.py) |  |  | Medium |
@@ -242,7 +242,8 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 681 | [Next Closest Time](https://leetcode.com/problems/next-closest-time/) | [Python](./Python/next-closest-time.py) |  |  | Medium |
 | 686 | [Repeated String Match](https://leetcode.com/problems/repeated-string-match/) | [Python](./Python/repeated-string-match.py) |  |  | Easy |
 | 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | [Python](./Python/count-binary-substrings.py) |  |  | Easy |
-| 720 | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/) | [Python](./Python/longest-word-in-dictionary.py) |  |  | Easy |
+| 709 | [Longest Word in Dictionary](https://leetcode.com/problems/to-lower-case/) | [Python](./Python/to-lower-case.py) | O(n) | O(1) | Easy |
+| 720 | [To Lower Case](https://leetcode.com/problems/longest-word-in-dictionary/) | [Python](./Python/longest-word-in-dictionary.py) |  |  | Easy |
 | 722 | [Remove Comments](https://leetcode.com/problems/remove-comments/) | [Python](./Python/remove-comments.py) |  |  | Medium |
 | 751 | [IP to CIDR](https://leetcode.com/problems/ip-to-cidr/) | [Python](./Python/ip-to-cidr.py) |  |  | Medium |
 | 758 | [Bold Words in String](https://leetcode.com/contest/weekly-contest-66/problems/bold-words-in-string/) | [Python](./Python/bold-words-in-string.py) |  |  | Easy |
@@ -259,7 +260,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 833 | [Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) | [Python](./Python/find-and-replace-in-string.py) |  |  | Medium |
 | 839 | [Similar String Groups](https://leetcode.com/problems/similar-string-groups/) | [Python](./Python/similar-string-groups.py) |  |  | Hard |
 | 848 | [Shifting Letters](https://leetcode.com/problems/shifting-letters/) | [Python](./Python/shifting-letters.py) |  |  | Medium |
-| 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | [Python](./Python/buddy-strings.py) |  |  | Easy |
+| 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | [Python](./Python/buddy-strings.py) | O(n) | O(1) | Easy |
 
 
 
@@ -411,7 +412,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | # | Title | Solution | Time | Space | Difficulty |
 | --- | --- | --- | --- | --- | --- |
 | 001 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./Python/two-sum.py) | O(n) | O(n) | Easy |
-| 003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](./Python/longest-substring-without-repeating-characters.py) |  |  | Medium |
+| 003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](./Python/longest-substring-without-repeating-characters.py) | O(n) | O(n) | Medium |
 | 030 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | [Python](./Python/substring-with-concatenation-of-all-words.py) |  |  | Hard |
 | 036 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](./Python/valid-sudoku.py) | $O(n^2)$ | O(n) | Medium |
 | 049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Python](./Python/group-anagrams.py) | O(n) | O(n) | Medium |
@@ -484,7 +485,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Python](./Python/palindrome-number.py) | O(1) | O(1) | Easy |
 | 012 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [Python](./Python/integer-to-roman.py) |  |  | Medium |
 | 013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](./Python/roman-to-integer.py) | O(n) | O(1) | Easy |
-| 026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](./Python/remove-duplicates-from-sorted-array.py) | $O(n^2)$ | O(1) | Easy |
+| 026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](./Python/remove-duplicates-from-sorted-array.py) | $O(n)$ | O(1) | Easy |
 | 029 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | [Python](./Python/divide-two-integers.py) |  |  | Medium |
 | 050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Python](./Python/powx-n.py) |  |  | Medium |
 | 060 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | [Python](./Python/permutation-sequence.py) |  |  | Medium |
@@ -740,7 +741,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | # | Title | Solution | Time | Space | Difficulty |
 | --- | --- | --- | --- | --- | --- |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Python](./Python/maximum-depth-of-binary-tree.py) | O(n) | O(1) | Easy |
-| 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | [Python](./Python/path-sum.py) |  |  | Easy |
+| 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | [Python](./Python/path-sum.py) | O(n) | O(1) | Easy |
 | 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | [Python](./Python/path-sum-ii.py) |  |  | Medium |
 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [Python](./Python/binary-tree-right-side-view.py) |  |  | Medium |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python](./Python/number-of-islands.py) |  |  | Medium |
@@ -825,12 +826,12 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Python](./Python/maximum-subarray.py) | O(n) | O(1) | Easy |
 | 062 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Python](./Python/unique-paths.py) |  |  | Medium |
 | 063 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [Python](./Python/unique-paths-ii.py) |  |  | Medium |
-| 064 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Python](./Python/minimum-path-sum.py) |  |  | Medium |
+| 064 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Python](./Python/minimum-path-sum.py) | O(n^2) | O(1) | Medium |
 | 070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Python](./Python/climbing-stairs.py) | O(n) | O(1) | Easy |
-| 072 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | [Python](./Python/edit-distance.py) |  |  | Hard |
+| 072 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | [Python](./Python/edit-distance.py) | O(m*n) | O(m)/O(n) | Hard |
 | 087 | [Scramble String](https://leetcode.com/problems/scramble-string/) | [Python](./Python/scramble-string.py) |  |  | Hard |
 | 091 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | [Python](./Python/decode-ways.py) |  |  | Medium |
-| 096 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Python](./Python/unique-binary-search-trees.py) |  |  | Medium |
+| 096 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Python](./Python/unique-binary-search-trees.py) | O(n^2) | O(n) | Medium |
 | 097 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | [Python](./Python/interleaving-string.py) |  |  | Hard |
 | 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | [Python](./Python/distinct-subsequences.py) |  |  | Hard |
 | 120 | [Triangle](https://leetcode.com/problems/triangle/) | [Python](./Python/triangle.py) |  |  | Medium |
@@ -910,7 +911,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 837 | [New 21 Game](https://leetcode.com/problems/new-21-game/) | [Python](./Python/new-21-game.py) |  |  | Medium |
 | 838 | [Push Dominoes](https://leetcode.com/problems/push-dominoes/) | [Python](./Python/push-dominoes.py) |  |  | Medium |
 | 847 | [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | [Python](./Python/shortest-path-visiting-all-nodes.py) |  |  | Hard |
-| 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | [Python](./Python/stone-game.py) |  |  | Medium |
+| 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | [Python](./Python/stone-game.py) | O(n) | O(1) | Medium |
 | 879 | [Profitable Schemes](https://leetcode.com/problems/profitable-schemes/) | [Python](./Python/profitable-schemes.py) |  |  |  |
 
 ## Greedy
