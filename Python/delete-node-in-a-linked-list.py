@@ -36,6 +36,10 @@ class Solution(object):
         :type node: ListNode
         :rtype: void Do not return anything, modify node in-place instead.
         """
+        # 首先，如果时间复杂度为O（1），那么以下爱代码是基于删除的节点必定再到航前链表中为假设前提的。
+        # 分为两种情况，
+        # 1、如果要删除的结点不是尾节点，可以直接删除。
+        # 2、否则还是需要遍历到链表的末尾，这是最坏情况。
 
         node.val = node.next.val
         node.next = node.next.next

@@ -159,7 +159,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | [Python](./Python/single-number-ii.py) |  |  | Medium |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [Python](./Python/majority-element.py) | $O(nlog_2(n))$ | O(1) | Easy |
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [Python](./Python/reverse-bits.py) | O(n) | O(1) | Easy |
-| 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Python](./Python/number-of-1-bits.py) | O(log_2(n)) | O(1) | Easy |
+| 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Python](./Python/number-of-1-bits.py) | O(1)) | O(1) | Easy |
 | 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [Python](./Python/bitwise-and-of-numbers-range.py) |  |  | Medium |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | [Python](./Python/power-of-two.py) | O(1) | O(1) | Easy |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | [Python](./Python/add-digits.py) | O(n) | O(1) | Easy |
@@ -270,13 +270,13 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | # | Title | Solution | Time | Space | Difficulty |
 | --- | --- | --- | --- | --- | --- |
 | 002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](./Python/add-two-numbers.py) | O(n) | O(n) | Medium |
-| 021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Python](./Python/merge-two-sorted-lists.py) | O(n) | O(n) | Easy |
-| 023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Python](./Python/merge-k-sorted-lists.py) |  |  | Hard |
+| 021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Python](./Python/merge-two-sorted-lists.py) | O(n+m) | O(1) | Easy |
+| 023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Python](./Python/merge-k-sorted-lists.py) | O(nlogk) | O(1) | Hard |
 | 024 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [Python](./Python/swap-nodes-in-pairs.py) |  |  | Easy |
 | 025 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Python](./Python/reverse-nodes-in-k-group.py) |  |  | Hard |
 | 061 | [Rotate List](https://leetcode.com/problems/rotate-list/) | [Python](./Python/rotate-list.py) | O(n) | O(1) | Medium |
-| 082 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [Python](./Python/remove-duplicates-from-sorted-list-ii.py) |  |  | Medium |
-| 083 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Python](./Python/remove-duplicates-from-sorted-list.py) |  |  | Easy |
+| 082 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [Python](./Python/remove-duplicates-from-sorted-list-ii.py) | O(n) | O(1) | Medium |
+| 083 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Python](./Python/remove-duplicates-from-sorted-list.py) | O(n) | O(1) | Easy |
 | 092 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | [Python](./Python/reverse-linked-list-ii.py) |  |  | Medium |
 | 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Python](./Python/copy-list-with-random-pointer.py) | O(n) | O(n) | Hard |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Python](./Python/intersection-of-two-linked-lists.py) | O(n) | O(1) | Easy |
@@ -301,12 +301,12 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 071 | [Simplify Path](https://leetcode.com/problems/simplify-path/) | [Python](./Python/simplify-path.py) |  |  | Medium |
 | 084 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Python](./Python/largest-rectangle-in-histogram.py) |  |  | Hard |
 | 085 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [Python](./Python/maximal-rectangle.py) |  |  | Hard |
-| 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Python](./Python/symmetric-tree.py) | O(n) | O(1) | Easy |
+| 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Python](./Python/symmetric-tree.py) | O(logn) | O(1) | Easy |
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Python](./Python/evaluate-reverse-polish-notation.py) |  |  | Medium |
 | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | [Python](./Python/binary-search-tree-iterator.py) |  |  | Medium |
 | 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [Python](./Python/basic-calculator.py) |  |  | Hard |
 | 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | [Python](./Python/basic-calculator-ii.py) |  |  | Medium |
-| 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [Python](./Python/implement-queue-using-stacks.py) |  |  | Easy |
+| 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [Python](./Python/implement-queue-using-stacks.py) | —— | —— | Easy |
 | 255 | [Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/) | [Python](./Python/verify-preorder-sequence-in-binary-search-tree.py) |  |  | Medium |
 | 272 | [Closest Binary Search Tree Value II](https://leetcode.com/problems/closest-binary-search-tree-value-ii/) | [Python](./Python/closest-binary-search-tree-value-ii.py) |  |  | Hard |
 | 331 | [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/) | [Python](./Python/verify-preorder-serialization-of-a-binary-tree.py) |  |  | Medium |
@@ -374,7 +374,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Python](./Python/binary-tree-postorder-traversal.py) | O(n) | O(1) | Hard |
 | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Python](./Python/implement-trie-prefix-tree.py) |  |  | Medium |
 | 211 | [Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/) | [Python](./Python/add-and-search-word-data-structure-design.py) |  |  | Medium |
-| 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Python](./Python/invert-binary-tree.py) | O(n) | O(1) | Easy |
+| 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Python](./Python/invert-binary-tree.py) | O(logn) | O(1) | Easy |
 | 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Python](./Python/serialize-and-deserialize-binary-tree.py) |  |  | Hard |
 | 307 | [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/) | [Python](./Python/range-sum-query-mutable.py) |  |  | Medium |
 | 308 | [Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/) | [Python](./Python/range-sum-query-2d-mutable.py) |  |  | Hard |
@@ -834,7 +834,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 096 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Python](./Python/unique-binary-search-trees.py) | O(n^2) | O(n) | Medium |
 | 097 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | [Python](./Python/interleaving-string.py) |  |  | Hard |
 | 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | [Python](./Python/distinct-subsequences.py) |  |  | Hard |
-| 120 | [Triangle](https://leetcode.com/problems/triangle/) | [Python](./Python/triangle.py) |  |  | Medium |
+| 120 | [Triangle](https://leetcode.com/problems/triangle/) | [Python](./Python/triangle.py) | O(n^2) | O(1) | Medium |
 | 123 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [Python](./Python/best-time-to-buy-and-sell-stock-iii.py) |  |  | Hard |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](./Python/best-time-to-buy-and-sell-stock.py) | O(n) | O(1) | Easy |
 | 132 | [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/) | [Python](./Python/palindrome-partitioning-ii.py) |  |  | Hard |
@@ -971,7 +971,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | --- | --- | --- | --- | --- | --- |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [Python](./Python/lru-cache.py) |  |  | Hard |
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [Python](./Python/min-stack.py) | ---- | ---- | Easy |
-| 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [Python](./Python/implement-stack-using-queues.py) |  |  | Easy |
+| 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [Python](./Python/implement-stack-using-queues.py) | _ | _ | Easy |
 | 284 | [Peeking Iterator](https://leetcode.com/problems/peeking-iterator/) | [Python](./Python/peeking-iterator.py) |  |  | Medium |
 | 348 | [Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/) | [Python](./Python/design-tic-tac-toe.py) |  |  | Medium |
 | 353 | [Design Snake Game](https://leetcode.com/problems/design-snake-game/) | [Python](./Python/design-snake-game.py) |  |  | Medium |

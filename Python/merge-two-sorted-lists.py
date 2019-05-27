@@ -27,28 +27,22 @@ class Solution:
         """
 
         # Approach one 递归的方法
-#         res = None
 #         if l1 == None:
 #             return l2
 #         elif l2 == None:
 #             return l1
-
 #         if l2.val >= l1.val:
-#             res = l1
-#             res.next =  self.mergeTwoLists(l1.next, l2)
+#             l1.next =  self.mergeTwoLists(l1.next, l2)
+#             return l1
 #         else:
-#             res = l2
-#             res.next =  self.mergeTwoLists(l1, l2.next)
-
-#         return res
+#             l2.next =  self.mergeTwoLists(l1, l2.next)
+#             return l2
 
 
 
 
-        # Approach two  牺牲存储空间，换取时间
-        head = ListNode(0)
-        curr = head
-
+        # Approach two  # 循环的解法需要两个新头结点，并注意拼接尾链
+        head =  curr = ListNode(0)
         while l1 and l2:
             if l1.val >= l2.val:
                 curr.next = l2
@@ -57,9 +51,5 @@ class Solution:
                 curr.next = l1
                 l1 = l1.next
             curr = curr.next
-        if l1 == None:
-            curr.next = l2
-        if l2 == None:
-            curr.next = l1
-
+        curr.next = l1 if l1 else l2
         return head.next

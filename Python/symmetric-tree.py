@@ -47,16 +47,13 @@ class Solution:
 
     #  Approach two 迭代
     def isSymmetric(self, root: TreeNode) -> bool:
+        # 循环解法，递归调用函数会有额外的开销。
         if not root : return True
-        qlist=[root.left, root.right]
-        while len(qlist)!=0:
-            t1=qlist.pop()
-            t2=qlist.pop()
-            if not t1 and not t2: continue
-            if not t1 or not t2: return False
-            if t1.val != t2.val : return False
-            qlist.append(t1.left)
-            qlist.append(t2.right)
-            qlist.append(t1.right)
-            qlist.append(t2.left)
+        stack = [root.left,root.right]
+        while stack:
+            node1,node2 = stack.pop(), stack.pop()
+            if not node1 and not node2 : continue
+            if not node1 or not  node2 : return False
+            if node2.val != node1.val : return False
+            stack += [node1.left, node2.right,node1.right,node2.left]
         return True
