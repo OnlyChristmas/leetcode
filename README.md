@@ -278,7 +278,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 082 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [Python](./Python/remove-duplicates-from-sorted-list-ii.py) | O(n) | O(1) | Medium |
 | 083 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Python](./Python/remove-duplicates-from-sorted-list.py) | O(n) | O(1) | Easy |
 | 092 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | [Python](./Python/reverse-linked-list-ii.py) |  |  | Medium |
-| 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Python](./Python/copy-list-with-random-pointer.py) | O(n) | O(n) | Hard |
+| 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Python](./Python/copy-list-with-random-pointer.py) | O(n) | O(1) | Medium |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Python](./Python/intersection-of-two-linked-lists.py) | O(n) | O(1) | Easy |
 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Python](./Python/remove-linked-list-elements.py) | O(n) | O(1) | Easy |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](./Python/reverse-linked-list.py) | O(n) | O(1) | Easy |
@@ -495,8 +495,8 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 089 | [Gray Code](https://leetcode.com/problems/gray-code/) | [Python](./Python/gray-code.py) |  |  | Medium |
 | 166 | [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | [Python](./Python/fraction-to-recurring-decimal.py) |  |  | Medium |
 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | [Python](./Python/excel-sheet-column-title.py) |  |  | Easy |
-| 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [Python](./Python/excel-sheet-column-number.py) |  |  | Easy |
-| 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | [Python](./Python/factorial-trailing-zeroes.py) |  |  | Easy |
+| 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [Python](./Python/excel-sheet-column-number.py) | O(n) | O(1) | Easy |
+| 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | [Python](./Python/factorial-trailing-zeroes.py) | O(1) | O(1) | Easy |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | [Python](./Python/happy-number.py) | O(n) | O(1) | Easy |
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | [Python](./Python/count-primes.py) | O(n) | O(n) | Easy |
 | 223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) | [Python](./Python/rectangle-area.py) |  |  | Easy |
@@ -638,7 +638,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 298 | [Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/) | [Python](./Python/binary-tree-longest-consecutive-sequence.py) | O(n) | O(1) | Medium |
 | 327 | [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) | [Python](./Python/count-of-range-sum.py) |  |  | Hard |
 | 333 | [Largest BST Subtree](https://leetcode.com/problems/largest-bst-subtree/) | [Python](./Python/largest-bst-subtree.py) |  |  | Medium |
-| 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | [Python](./Python/house-robber-iii.py) |  |  | Medium |
+| 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | [Python](./Python/house-robber-iii.py) | O(logn) | O(1) | Medium |
 | 395 | [Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/) | [Python](./Python/longest-substring-with-at-least-k-repeating-characters.py) |  |  | Medium |
 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | [Python](./Python/sum-of-left-leaves.py) |  |  | Easy |
 | 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | [Python](./Python/path-sum-iii.py) |  |  | Easy |
@@ -842,8 +842,8 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [Python](./Python/maximum-product-subarray.py) |  |  | Medium |
 | 174 | [Dungeon Game](https://leetcode.com/problems/dungeon-game/) | [Python](./Python/dungeon-game.py) |  |  | Hard |
 | 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | [Python](./Python/best-time-to-buy-and-sell-stock-iv.py) |  |  | Hard |
-| 198 | [House Robber](https://leetcode.com/problems/house-robber/) | [Python](./Python/house-robber.py) |  |  | Easy |
-| 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | [Python](./Python/house-robber-ii.py) |  |  | Medium |
+| 198 | [House Robber](https://leetcode.com/problems/house-robber/) | [Python](./Python/house-robber.py) | O(n) | O(1) | Easy |
+| 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | [Python](./Python/house-robber-ii.py) | O(n) | O(1) | Medium |
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | [Python](./Python/maximal-square.py) |  |  | Medium |
 | 256 | [Paint House](https://leetcode.com/problems/paint-house/) | [Python](./Python/paint-house.py) |  |  | Medium |
 | 265 | [Paint House II](https://leetcode.com/problems/paint-house-ii/) | [Python](./Python/paint-house-ii.py) |  |  | Hard |

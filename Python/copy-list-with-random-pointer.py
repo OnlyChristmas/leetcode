@@ -34,8 +34,7 @@ class Solution:
     def copyRandomList(self, head: 'Node') -> 'Node':
 
 #         Approach one  深拷贝不是引用，需要新构造一个链表
-#         构造新链表
-#         赋值 random 指针
+#         构造新链表赋值 random 指针
 
 #         pre = pre2 = Node(0, None, None)
 #         orig =  orig1 = head
@@ -61,20 +60,48 @@ class Solution:
 
         # Approach two   O(n)    O(1)
 
+#         if not head: return None
+#         pre = None
+#         current = head
+
+#         while current:
+#             current.random = Node(current.val, None, current.random)
+#             if pre:
+#                 pre.random.next = current.random
+#             pre = current
+#             current = current.next
+
+#         current = head.random
+#         while current:
+#             if current.random:
+#                 current.random = current.random.random
+#             current = current.next
+#         return head.random
+
+
+
+        # Approach three
         if not head: return None
-        pre = None
-        current = head
 
-        while current:
-            current.random = Node(current.val, None, current.random)
-            if pre:
-                pre.random.next = current.random
-            pre = current
-            current = current.next
+        # 将新结点复制出来，插进原链表
+        tmp = head
+        while tmp:
+            node = Node(tmp.val,tmp.next,None)
+            tmp.next, tmp = node , node.next
 
-        current = head.random
-        while current:
-            if current.random:
-                current.random = current.random.random
-            current = current.next
-        return head.random
+        # 复制随机指针
+        tmp = head
+        while tmp:
+            if tmp.random:
+                tmp.next.random  = tmp.random.next
+            tmp =  tmp.next.next
+
+        # 拆分两个链表(注意边界条件，插入后的链表一个为偶数，原链表结点为空的时候就可以停止)
+        res = new_head = Node(0, None, None)
+        origin = head
+        while origin:
+            new_head.next =  origin.next
+            new_head = new_head.next
+            origin.next = new_head.next
+            origin = origin.next
+        return res.next
