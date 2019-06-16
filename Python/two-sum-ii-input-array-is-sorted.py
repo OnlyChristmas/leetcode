@@ -23,50 +23,30 @@ class Solution:
         :type target: int
         :rtype: List[int]
         """
-        # First method 遍历方法
-        # new_numbers = sorted(set(numbers))
-        # for i in range(len(new_numbers)):
-        #     for j in range(i,len(new_numbers)):
-        #         if new_numbers[i] + new_numbers[j] == target:
-        #             index1 = numbers.index(new_numbers[i])+1
-        #             numbers.remove(new_numbers[i])
-        #             return [index1, numbers.index(new_numbers[j])+2]
+        # Approach one
+#         for i,n in enumerate(numbers):
+#             ind = target - n
+#             if ind in numbers:
+#                 index2 = numbers.index(ind)
+#                 if index2 == i: return [i+1,i+2]
+#                 return [i + 1, index2 +1]
 
-
-
-        # Second method
-        # new_numbers = sorted(set(numbers))
-        # for i in range(len(new_numbers)):
-        #     number2 = target- new_numbers[i]
-        #     if number2 in new_numbers:
-        #         if number2 == new_numbers[i]:
-        #             return [numbers.index(new_numbers[i])+1, numbers.index(number2)+2]   # 处理number1 == number2 相同的情况，他们总是挨着
-        #         return [numbers.index(new_numbers[i])+1, numbers.index(number2)+1]
-
-
-        # third method
-        # new_numbers = sorted(set(numbers))
-        # for i in range(len(new_numbers)):
-        #     number2 = target- new_numbers[i]
-        #     if number2 in new_numbers:
-        #         ans = numbers.index(new_numbers[i])+1
-        #         numbers.remove(new_numbers[i])
-        #         return [ans, numbers.index(number2)+2]
-
-
-        # fourth method  利用字典，巧妙地去掉了重复元素，并且不用特殊处理两个因子相等的情况。
-        # check={}
-        # for i in range(len(numbers)):
-        #     if numbers[i] in check:
-        #         return [check.get(numbers[i])+1,i+1]
+        # Approach two
+        # dic = {}
+        # for i,n in enumerate(numbers):
+        #     s = target - n
+        #     if s not in dic:    # 巧妙避免两个相同元素的情况。
+        #         dic[n] = i
         #     else:
-        #         check[target-numbers[i]]=i
+        #         return [dic[s] +1 , i+1]
 
-        # fifth method
-        dic = {}
-        for i,n in enumerate(numbers):
-            s = target - n
-            if s not in dic:    # 巧妙避免两个相同元素的情况
-                dic[n] = i
+        # Approach three 双指针
+        if not numbers: return None
+        l , r = 0 , len(numbers) -1
+        while l < r:
+            if numbers[l] + numbers[r] == target:
+                return [l+1,r+1]
+            elif numbers[l] + numbers[r] < target:
+                l += 1
             else:
-                return [dic[s] +1 , i+1]
+                r -= 1

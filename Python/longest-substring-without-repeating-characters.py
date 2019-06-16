@@ -30,13 +30,11 @@ class Solution:
 
         # Approach one
         if s == '' : return 0
-        tmp = []
-        num = 0
-        for i in range(len(s)):
-            if s[i] not in tmp:
-                tmp.append(s[i])
-                num = max(num, len(tmp))
+        res , tmp = 0, ''
+        for i in s:
+            if i not in tmp:
+                tmp += i
+                res = max(res, len(tmp))
             else:
-                tmp =  tmp[tmp.index(s[i]) + 1:]
-                tmp.append(s[i])
-        return num
+                tmp =  tmp[tmp.index(i) + 1:] + i
+        return res
