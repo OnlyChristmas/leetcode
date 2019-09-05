@@ -30,6 +30,14 @@ class Node:
         self.next = next
         self.random = random
 """
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, val, next, random):
+        self.val = val
+        self.next = next
+        self.random = random
+"""
 class Solution:
     def copyRandomList(self, head: 'Node') -> 'Node':
 
@@ -80,7 +88,11 @@ class Solution:
 
 
 
-        # Approach three
+        # Approach three   O(n)  O(1)
+        # 在原链表的每个节点后面插入一个相同的节点
+        # 根据现在新节点和旧结点相交叉的状态复制随机指针
+        # 最后将两个链表一替一步的交叉前进，分离开来
+
         if not head: return None
 
         # 将新结点复制出来，插进原链表

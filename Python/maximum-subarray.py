@@ -19,12 +19,6 @@ If you have figured out the O(n) solution, try coding another solution using the
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
 
-        # Approach one  暴力滑窗 TLE
-        # res = [nums[0]]
-        # for i in range(len(nums)):
-        #     for j in range(i+1, len(nums)+1):
-        #         res.append(sum(nums[i:j]))
-        # return max(res)
 
 
         # Approach two  DP

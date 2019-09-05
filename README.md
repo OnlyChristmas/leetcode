@@ -651,13 +651,13 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 ## Binary Search
 | # | Title | Solution | Time | Space | Difficulty |
 | --- | --- | --- | --- | --- | --- |
-| 004 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Python](./Python/median-of-two-sorted-arrays.py) |  |  | Hard |
-| 033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](./Python/search-in-rotated-sorted-array.py) |  |  | Hard |
+| 004 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Python](./Python/median-of-two-sorted-arrays.py) | O(log(n)) | O(1) | Hard |
+| 033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](./Python/search-in-rotated-sorted-array.py) | O(logn) | O(1) | Medium |
 | 034 | [Search for a Range](https://leetcode.com/problems/search-for-a-range/) | [Python](./Python/search-for-a-range.py) |  |  | Medium |
 | 305 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](./Python/search-insert-position.py) |  |  | Medium |
 | 069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Python](./Python/sqrtx.py) | O(logn) | O(1) | Easy |
 | 074 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](./Python/search-a-2d-matrix.py) |  |  | Medium |
-| 081 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [Python](./Python/search-in-rotated-sorted-array-ii.py) |  |  | Medium |
+| 081 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [Python](./Python/search-in-rotated-sorted-array-ii.py) | O(logn)~O(n) | O(1) | Medium |
 | 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Python](./Python/find-minimum-in-rotated-sorted-array.py) | $O(log_2(n))$ | O(1) | Medium |
 | 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [Python](./Python/find-minimum-in-rotated-sorted-array-ii.py) | $O(log_2(n))-O(n)$ | O(1) | Hard |
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [Python](./Python/find-peak-element.py) | $O(log_2(n))$ | O(1) | Medium |
@@ -665,7 +665,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | [Python](./Python/count-complete-tree-nodes.py) |  |  | Medium |
 | 275 | [H-Index II](https://leetcode.com/problems/h-index-ii/) | [Python](./Python/h-index-ii.py) |  |  | Medium |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Python](./Python/first-bad-version.py) | $O(log_2(n))$ | O(1) | Easy |
-| 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Python](./Python/longest-increasing-subsequence.py) |  |  | Medium |
+| 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Python](./Python/longest-increasing-subsequence.py) | O(nlogn) | O(1)~O(n) | Medium |
 | 302 | [Smallest Rectangle Enclosing Black Pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/) | [Python](./Python/smallest-rectangle-enclosing-black-pixels.py) |  |  | Hard |
 | 354 | [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) | [Python](./Python/russian-doll-envelopes.py) |  |  | Hard |
 | 363 | [Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-sub-matrix-no-larger-than-k/) | [Python](./Python/max-sum-of-sub-matrix-no-larger-than-k.py) |  |  | Hard |
@@ -676,7 +676,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 475 | [Heaters](https://leetcode.com/problems/heaters/) | [Python](./Python/heaters.py) |  |  | Easy |
 | 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/dsingle-element-in-a-sorted-array/) | [Python](./Python/single-element-in-a-sorted-array.py) |  |  | Medium |
 | 658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | [Python](./Python/find-k-closest-elements.py) |  |  | Medium |
-| 668 | [Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/) | [Python](./Python/kth-smallest-number-in-multiplication-table.py) |  |  | Hard |
+| 668 | [Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/) | [Python](./Python/kth-smallest-number-in-multiplication-table.py) | O(min(m,n)log(m*n)) | O(1) | Hard |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [Python](./Python/binary-search.py) | O(nlogn) | O(1) | Easy |
 | 719 | [Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/) | [Python](./Python/find-k-th-smallest-pair-distance.py) |  |  | Hard |
 | 744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [Python](./Python/find-smallest-letter-greater-than-target.py) | $O(log_2(n))$ | O(1) | Easy |
@@ -830,7 +830,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Python](./Python/climbing-stairs.py) | O(n) | O(1) | Easy |
 | 072 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | [Python](./Python/edit-distance.py) | O(m*n) | O(m)/O(n) | Hard |
 | 087 | [Scramble String](https://leetcode.com/problems/scramble-string/) | [Python](./Python/scramble-string.py) |  |  | Hard |
-| 091 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | [Python](./Python/decode-ways.py) |  |  | Medium |
+| 091 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | [Python](./Python/decode-ways.py) | O(n) | O(1) | Medium |
 | 096 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Python](./Python/unique-binary-search-trees.py) | O(n^2) | O(n) | Medium |
 | 097 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | [Python](./Python/interleaving-string.py) |  |  | Hard |
 | 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | [Python](./Python/distinct-subsequences.py) |  |  | Hard |

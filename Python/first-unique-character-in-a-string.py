@@ -16,48 +16,17 @@ Note: You may assume the string contain only lowercase letters.
 
 
 class Solution:
-    def firstUniqChar(self, s):
-        """
-        :type s: str
-        :rtype: int
-        """
+    def firstUniqChar(self, s: str) -> int:
+        # Approach one 空间换时间，将暴力解法O(n^2)的复杂度降为O(n)
+        # dic = dict()
+        # for i in s:
+        #     dic[i] = dic.get(i,0) +1
+        # for i,n in enumerate(s):
+        #     if dic.get(n,0) == 1:
+        #         return i
+        # return  -1
 
 
-        # 思路一： 最直观的双重循环想法， TLE
-#         length = len(s)
-
-#         for i in range(length):
-#             for j in range(length):
-#                 if s[i] == s[j] and i != j:
-
-#                     break          # 提前中断可以提高效率
-#                 elif j == length-1 :
-#                     return i
-#         return -1                  # 解决没有只出现一次的字符的情况（例如空字符串）
-
-
-        # 思路二： 建立数组的方法(对输入s只遍历两次)
-#         number= []
-#         dic = {}
-#         for i in range(len(s)):
-#             if s[i] not in number:
-#                 number.append(s[i])
-#                 dic[s[i]] = 1
-#             else:
-#                 dic[s[i]] += 1
-
-#         for j in range(len(number)):
-#             if dic.get(number[j]) == 1:
-#                 for k in range(len(s)):
-#                     if s[k] == number[j]:
-#                         return k
-#         return -1
-
-
-
-
-
-
-        # Approach #3
-        res = [s.index(label) for label in  string.ascii_lowercase if s.count(label) == 1]
-        return  min(res) if res != [] else -1
+        # Approach two  因为候选的字符有限，可以从字符的角度循环，不需要辅助的存储空间，还能加速运算
+        res = [s.index(i) for i in string.ascii_lowercase if s.count(i) == 1 ]
+        return min(res) if res else -1
