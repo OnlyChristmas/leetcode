@@ -24,34 +24,24 @@ You must not use any built-in BigInteger library or convert the inputs to intege
 class Solution:
     def multiply(self, num1: str, num2: str) -> str:
 
-        # Approach one  不符合题目要求
-        # return  str(int(num1) * int(num2))
-
-
-
-        # Approach two  采取列竖式乘法的方法， m位数乘以n位数，结果最多为m+n位数。
+        # 考察大数相乘(两个数相乘结果只可能为n1+n2或者n1+n2-1)
         if num1 == "0" or num2 == "0": return "0"
         n1 = len(num1)
         n2 = len(num2)
+        num1 = list(map(int, list(num1)))
+        num2 = list(map(int, list(num2)))
         result = [0 for i in range(n1 + n2)]
 
-        def _sum(value, index):                # 存储每一位相乘的结果
-            tmpIndex = n1 + n2 - 1 - index
-            tmp = result[tmpIndex] + value
-            if tmp > 9:
-                result[tmpIndex] = tmp % 10
-                _sum(tmp // 10, index + 1)
-            else:
-                result[tmpIndex] = tmp
+        for i in range(n1-1,-1,-1):
+            for j in range(n2-1,-1,-1):
+                result[i+j+1] += num1[i] * num2[j]
 
-        for i in range(n1):
-            a = int(num1[n1 - 1 - i])
-            for j in range(n2):
-                b = int(num2[n2 - 1 - j])
-                c = a * b
-                _sum(c, i + j)  # 从0开始
+        for i in range(n1+n2-1,0,-1):
+            result[i-1] += result[i] // 10
+            result[i] = result[i] % 10
+
 
         if result[0] == 0:
-            return "".join([str(k) for k in result[1:]])    # 最多只有一位零
+            return "".join([str(k) for k in result[1:]])    # 前面最多只有一位零
         else:
             return "".join([str(k) for k in result])

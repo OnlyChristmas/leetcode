@@ -567,7 +567,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 ## Sort
 | # | Title | Solution | Time | Space | Difficulty |
 | --- | --- | --- | --- | --- | --- |
-| 056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Python](./Python/merge-intervals.py) |  |  | Hard |
+| 056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Python](./Python/merge-intervals.py) | O(n) | O(1) | Medium |
 | 057 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | [Python](./Python/insert-interval.py) |  |  | Hard |
 | 075 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [Python](./Python/sort-colors.py) | O(n) | O(1) | Medium |
 | 088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Python](./Python/merge-sorted-array.py) | O(n) | O(1) | Easy |
@@ -795,9 +795,9 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | 051 | [N-Queens](https://leetcode.com/problems/n-queens/) | [Python](./Python/n-queens.py) |  |  | Hard |
 | 052 | [N-Queens-II](https://leetcode.com/problems/n-queens-ii/) | [Python](./Python/n-queens-ii.py) |  |  | Hard |
 | 077 | [Combinations](https://leetcode.com/problems/combinations/) | [Python](./Python/combinations.py) |  |  | Medium |
-| 078 | [Subsets](https://leetcode.com/problems/subsets/) | [Python](./Python/subsets.py) | O(n2) | O(n) | Medium |
+| 078 | [Subsets](https://leetcode.com/problems/subsets/) | [Python](./Python/subsets.py) | O(n2) | O(1) | Medium |
 | 079 | [Word Search](https://leetcode.com/problems/word-search/) | [Python](./Python/word-search.py) |  |  | Medium |
-| 090 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | [Python](./Python/subsets-ii.py) |  |  | Medium |
+| 090 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | [Python](./Python/subsets-ii.py) | O(n^2) | O(1) | Medium |
 | 093 | [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/) | [Python](./Python/restore-ip-addresses.py) |  |  | Medium |
 | 126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) | [Python](./Python/word-ladder-ii.py) |  |  | Hard |
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | [Python](./Python/palindrome-partitioning.py) |  |  | Medium |
@@ -824,7 +824,7 @@ Binary Search Manipulation](https://github.com/OnlyChristmas/leetcode#bit-manipu
 | --- | --- | --- | --- | --- | --- |
 | 010 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [Python](./Python/regular-expression-matching.py) |  |  | Hard |
 | 053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Python](./Python/maximum-subarray.py) | O(n) | O(1) | Easy |
-| 062 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Python](./Python/unique-paths.py) |  |  | Medium |
+| 062 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Python](./Python/unique-paths.py) | O(n*m) | O(n) | Medium |
 | 063 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [Python](./Python/unique-paths-ii.py) |  |  | Medium |
 | 064 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Python](./Python/minimum-path-sum.py) | O(n^2) | O(1) | Medium |
 | 070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Python](./Python/climbing-stairs.py) | O(n) | O(1) | Easy |
